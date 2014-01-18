@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LAN8720
+D Ethernet 10/100BASE-TX RMII PHY
+$ENDCMP
+#
+#End Doc Library

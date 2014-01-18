@@ -1,0 +1,152 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:lan8720
+LIBS:hole
+LIBS:ts8121
+LIBS:loran_c_proc_board-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title "Processor board"
+Date "15 янв. 2014"
+Rev ""
+Comp "Roman Dobrodiy"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4150 2850 1350 1550
+U 52D5DBDC
+F0 "uC STM32F407" 50
+F1 "loran_c_uc.sch" 50
+F2 "OSC_IN" I L 4150 3350 60 
+F3 "VBAT" I L 4150 2950 60 
+F4 "RMII" O R 5500 3100 60 
+F5 "DAC1_OUT" O R 5500 3250 60 
+F6 "DAC2_OUT" O R 5500 3400 60 
+F7 "UART1" B R 5500 3550 60 
+F8 "UART2" B R 5500 3700 60 
+F9 "SPI" O R 5500 2950 60 
+F10 "JTAG_SWD" I L 4150 3550 60 
+F11 "PPS_OUT" O R 5500 4300 60 
+F12 "PROG_OUT" O R 5500 4150 60 
+F13 "ADC1_IN" I R 5500 3850 60 
+F14 "ADC2_IN" I R 5500 4000 60 
+$EndSheet
+$Comp
+L +3.3VADC #PWR?
+U 1 1 52D95020
+P 1900 1450
+F 0 "#PWR?" H 1900 1570 20  0001 C CNN
+F 1 "+3.3VADC" H 1900 1540 30  0000 C CNN
+F 2 "" H 1900 1450 60  0000 C CNN
+F 3 "" H 1900 1450 60  0000 C CNN
+	1    1900 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD #PWR?
+U 1 1 52D95130
+P 2100 1450
+F 0 "#PWR?" H 2100 1550 30  0001 C CNN
+F 1 "VDD" H 2100 1560 30  0000 C CNN
+F 2 "" H 2100 1450 60  0000 C CNN
+F 3 "" H 2100 1450 60  0000 C CNN
+	1    2100 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VA #PWR?
+U 1 1 52D95294
+P 2300 1450
+F 0 "#PWR?" H 2300 1580 20  0001 C CNN
+F 1 "+5VA" H 2300 1550 30  0000 C CNN
+F 2 "" H 2300 1450 60  0000 C CNN
+F 3 "" H 2300 1450 60  0000 C CNN
+	1    2300 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5VD #PWR?
+U 1 1 52D95364
+P 2450 1450
+F 0 "#PWR?" H 2450 1400 20  0001 C CNN
+F 1 "+5VD" H 2450 1550 30  0000 C CNN
+F 2 "" H 2450 1450 60  0000 C CNN
+F 3 "" H 2450 1450 60  0000 C CNN
+	1    2450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L AGND #PWR?
+U 1 1 52D95420
+P 1900 1750
+F 0 "#PWR?" H 1900 1750 40  0001 C CNN
+F 1 "AGND" H 1900 1680 50  0000 C CNN
+F 2 "" H 1900 1750 60  0000 C CNN
+F 3 "" H 1900 1750 60  0000 C CNN
+	1    1900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 52D95488
+P 2450 1750
+F 0 "#PWR?" H 2450 1750 30  0001 C CNN
+F 1 "GND" H 2450 1680 30  0001 C CNN
+F 2 "" H 2450 1750 60  0000 C CNN
+F 3 "" H 2450 1750 60  0000 C CNN
+	1    2450 1750
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7250 3800 1000 300 
+U 52DB7EB9
+F0 "Ethernet PHY" 50
+F1 "loran_c_ethernet.sch" 50
+F2 "RMII" I L 7250 3950 60 
+$EndSheet
+$Sheet
+S 7250 2950 1000 600 
+U 52DB9C78
+F0 "RS232 interface" 50
+F1 "loran_c_rs232.sch" 50
+F2 "UART1" B L 7250 3100 60 
+F3 "UART2" B L 7250 3250 60 
+F4 "PPS_UART" I L 7250 3400 60 
+$EndSheet
+$EndSCHEMATC
