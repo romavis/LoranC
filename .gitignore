@@ -2,10 +2,6 @@
 
 *.bak
 
-#Generated PDFs
-
-*.pdf
-
 #KDE files
 
 .directory
