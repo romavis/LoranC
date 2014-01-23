@@ -1,0 +1,99 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 7400
+D Quad nand2
+K TTL nand2
+$ENDCMP
+#
+$CMP 7402
+D Quad Nor2
+K TTL Nor2
+$ENDCMP
+#
+$CMP 74HC00
+D Quad nand2
+K HCMOS nand2
+$ENDCMP
+#
+$CMP 74HC02
+D Quad Nor2
+K HCMOS Nor2
+$ENDCMP
+#
+$CMP 74HC04
+D Hex Inverseur
+K HCMOS not inv
+$ENDCMP
+#
+$CMP 74HC595
+D 8 bits serial in // out Shift Register 3 State Out
+K HCMOS SR 3State
+F 74xx/74HC595.pdf
+$ENDCMP
+#
+$CMP 74HCT00
+D Quad nand2
+K HCTMOS nand2
+$ENDCMP
+#
+$CMP 74HCT02
+D Quad Nor2
+K HCTMOS Nor2
+$ENDCMP
+#
+$CMP 74HCT04
+D Hex Inverseur
+K HCTMOS not inv
+$ENDCMP
+#
+$CMP 74HCT541_PWR
+D 8bits Buffer/Line Driver 3 state Out
+K TTL BUFFER 3State BUS
+$ENDCMP
+#
+$CMP 74HCT574_PWR
+D 8 bits Register, 3 state Out, with visible Pins power
+K TTL REG DFF DFF8 3State
+$ENDCMP
+#
+$CMP 74LS00
+D Quad nand2
+K TTL nand2
+$ENDCMP
+#
+$CMP 74LS01
+D Quad nand2 open collect.
+K TTL nand2 opencol
+$ENDCMP
+#
+$CMP 74LS02
+D Quad Nor2
+K TTL Nor2
+$ENDCMP
+#
+$CMP 74LS08
+D Quad And2
+K TTL and2
+$ENDCMP
+#
+$CMP 74LS10
+D Triple Nand3
+K TTL Nand3
+$ENDCMP
+#
+$CMP 74LS107
+D Double JK FlipFlop, reset
+K TTL JK
+$ENDCMP
+#
+$CMP 74LS109
+D Double JK FlipFlop, Set & Reset
+K TTL JK
+$ENDCMP
+#
+$CMP 74LS11
+D Triple And3
+K TTL And3
+$ENDCMP
+#
+#End Doc Library
