@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Сб. 25 янв. 2014 00:39:15
+Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Сб. 25 янв. 2014 01:50:16
 
 BeginCmp
 TimeStamp = /52EA6CDB;
@@ -1544,14 +1544,14 @@ BeginCmp
 TimeStamp = /52DFF671;
 Reference = U102;
 ValeurCmp = 74AC14;
-IdModule  = w_smd_dil:so-16;
+IdModule  = w_smd_dil:so-14;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E8DC3F;
 Reference = U103;
 ValeurCmp = 74AC14;
-IdModule  = w_smd_dil:so-16;
+IdModule  = w_smd_dil:so-14;
 EndCmp
 
 BeginCmp
@@ -1586,14 +1586,14 @@ BeginCmp
 TimeStamp = /52DAFA41/52DD7C88;
 Reference = U401;
 ValeurCmp = 74AC14;
-IdModule  = w_smd_dil:so-16;
+IdModule  = w_smd_dil:so-14;
 EndCmp
 
 BeginCmp
 TimeStamp = /52DAFA41/52DD8927;
 Reference = U402;
 ValeurCmp = 74AC14;
-IdModule  = w_smd_dil:so-16;
+IdModule  = w_smd_dil:so-14;
 EndCmp
 
 BeginCmp
