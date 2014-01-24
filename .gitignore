@@ -1,6 +1,7 @@
 #Backups
 
 *.bak
+*.kicad_pcb-bak
 
 #KDE files
 
