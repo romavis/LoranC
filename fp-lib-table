@@ -17,4 +17,5 @@
   (lib (name w_smd_qfn)(type Legacy)(uri ${KISYSMOD}/w_smd_qfn.mod)(options "")(descr ""))
   (lib (name w_smd_lqfp)(type Legacy)(uri ${KISYSMOD}/w_smd_lqfp.mod)(options "")(descr ""))
   (lib (name w_smd_transistors)(type Legacy)(uri ${KISYSMOD}/w_smd_trans.mod)(options "")(descr ""))
+  (lib (name connect-minifit)(type KiCad)(uri ${KISYSMOD}/connect-minifit.pretty)(options "")(descr ""))
 )

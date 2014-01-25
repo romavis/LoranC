@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Сб. 25 янв. 2014 01:50:16
+Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Сб. 25 янв. 2014 22:09:57
 
 BeginCmp
 TimeStamp = /52EA6CDB;
@@ -865,7 +865,7 @@ BeginCmp
 TimeStamp = /52E653FB;
 Reference = P101;
 ValeurCmp = Power;
-IdModule  = ;
+IdModule  = connect-minifit:minifit-8;
 EndCmp
 
 BeginCmp
