@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Сб. 25 янв. 2014 22:09:57
+Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Вс. 26 янв. 2014 16:43:18
 
 BeginCmp
 TimeStamp = /52EA6CDB;
@@ -327,6 +327,13 @@ TimeStamp = /52DAFA41/52DDDCD2;
 Reference = C404;
 ValeurCmp = 10u 6.3V Ta;
 IdModule  = w_smd_capacitors:c_tant_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DAFA41/52E66600;
+Reference = C405;
+ValeurCmp = 100n;
+IdModule  = w_smd_capacitors:c_1206;
 EndCmp
 
 BeginCmp
@@ -830,7 +837,7 @@ BeginCmp
 TimeStamp = /52DB7EB9/52D98403;
 Reference = J201;
 ValeurCmp = RJ45;
-IdModule  = ;
+IdModule  = Connect:RJ45_8;
 EndCmp
 
 BeginCmp
@@ -862,7 +869,7 @@ IdModule  = Wire_Pads:SolderWirePad_single_2-5mmDrill;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E653FB;
+TimeStamp = /52E48614;
 Reference = P101;
 ValeurCmp = Power;
 IdModule  = connect-minifit:minifit-8;
@@ -1240,6 +1247,13 @@ IdModule  = w_smd_resistors:r_1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /52DAFA41/52E62630;
+Reference = R408;
+ValeurCmp = 33;
+IdModule  = w_smd_resistors:r_1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /52DF2AF5/52DF2D1A;
 Reference = R501;
 ValeurCmp = 4.7k;
@@ -1527,10 +1541,31 @@ IdModule  = w_smd_resistors:r_1206;
 EndCmp
 
 BeginCmp
+TimeStamp = /52D5DBDC/52E635B5;
+Reference = R716;
+ValeurCmp = 33;
+IdModule  = w_smd_resistors:r_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D5DBDC/52E635AA;
+Reference = R717;
+ValeurCmp = 33;
+IdModule  = w_smd_resistors:r_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /52D5DBDC/52E6300A;
+Reference = R718;
+ValeurCmp = 33;
+IdModule  = w_smd_resistors:r_1206;
+EndCmp
+
+BeginCmp
 TimeStamp = /52DB7EB9/52D99E3F;
 Reference = TR201;
 ValeurCmp = TS8121;
-IdModule  = ;
+IdModule  = ts8121:TS8121;
 EndCmp
 
 BeginCmp
@@ -1621,14 +1656,14 @@ BeginCmp
 TimeStamp = /52DB7EB9/52DB26F7;
 Reference = X201;
 ValeurCmp = 25MHz;
-IdModule  = ;
+IdModule  = w_crystal:crystal_hc-49u;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D5DBDC/52D2862A;
 Reference = X701;
 ValeurCmp = 32.768KHz;
-IdModule  = ;
+IdModule  = w_crystal:crystal_tc-38_horiz;
 EndCmp
 
 EndListe
