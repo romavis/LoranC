@@ -1,4 +1,4 @@
-update=Вт. 28 янв. 2014 01:08:18
+update=Пн. 03 февр. 2014 22:35:40
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -81,6 +81,7 @@ LibName58=stm8
 LibName59=supertex
 LibName60=transf
 LibName61=video
+LibName62=led_holder
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -88,8 +89,8 @@ LastNetListRead=
 UseCmpFile=1
 PadDrill=0
 PadDrillOvalY=0
-PadSizeH=3.6576
-PadSizeV=2.032
+PadSizeH=0.29972
+PadSizeV=1.30048
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0.3

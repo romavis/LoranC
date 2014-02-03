@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_x2
+D Double LED PCB holder
+K LED
+$ENDCMP
+#
+#End Doc Library

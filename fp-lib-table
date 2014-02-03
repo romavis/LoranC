@@ -19,4 +19,6 @@
   (lib (name w_smd_transistors)(type Legacy)(uri ${KISYSMOD}/w_smd_trans.mod)(options "")(descr ""))
   (lib (name connect-minifit)(type KiCad)(uri ${KISYSMOD}/connect-minifit.pretty)(options "")(descr ""))
   (lib (name ts8121)(type KiCad)(uri ${KISYSMOD}/ts8121.pretty)(options "")(descr ""))
+  (lib (name led_holder)(type KiCad)(uri ${KISYSMOD}/led_holder.pretty)(options "")(descr ""))
+  (lib (name holes)(type KiCad)(uri ${KISYSMOD}/holes.pretty)(options "")(descr ""))
 )
