@@ -21,4 +21,5 @@
   (lib (name ts8121)(type KiCad)(uri ${KISYSMOD}/ts8121.pretty)(options "")(descr ""))
   (lib (name led_holder)(type KiCad)(uri ${KISYSMOD}/led_holder.pretty)(options "")(descr ""))
   (lib (name holes)(type KiCad)(uri ${KISYSMOD}/holes.pretty)(options "")(descr ""))
+  (lib (name battery-hold)(type KiCad)(uri ${KISYSMOD}/battery-hold.pretty)(options "")(descr ""))
 )
