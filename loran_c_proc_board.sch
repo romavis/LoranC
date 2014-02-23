@@ -62,6 +62,7 @@ LIBS:transf
 LIBS:video
 LIBS:led_holder
 LIBS:crystal_shielded
+LIBS:conn_2s
 LIBS:loran_c_proc_board-cache
 EELAYER 24 0
 EELAYER END
@@ -993,8 +994,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 2750 7750 2800
 Wire Wire Line
-	7300 2750 9650 2750
-Wire Wire Line
 	9500 2700 9500 2800
 Wire Wire Line
 	9500 3200 9500 3250
@@ -1377,10 +1376,7 @@ CBL_VDD
 Text Label 10000 4950 1    60   ~ 0
 CBL_VDD
 Wire Wire Line
-	7350 3100 7300 3100
-Wire Wire Line
-	7300 3100 7300 2750
-Connection ~ 7750 2750
+	7250 3100 7350 3100
 Wire Wire Line
 	9900 3700 9800 3700
 Wire Wire Line
@@ -1426,4 +1422,19 @@ Wire Wire Line
 	10000 5950 10000 6100
 Wire Wire Line
 	9100 5950 9100 6100
+Wire Wire Line
+	7750 2750 9650 2750
+Wire Wire Line
+	7250 3100 7250 3450
+$Comp
+L GND #PWR040
+U 1 1 53089649
+P 7250 3450
+F 0 "#PWR040" H 7250 3450 30  0001 C CNN
+F 1 "GND" H 7250 3380 30  0001 C CNN
+F 2 "" H 7250 3450 60  0000 C CNN
+F 3 "" H 7250 3450 60  0000 C CNN
+	1    7250 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Пт. 21 февр. 2014 03:08:57
+Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Вс. 23 февр. 2014 22:18:55
 
 BeginCmp
 TimeStamp = /52EA6CDB;
@@ -491,13 +491,6 @@ IdModule  = w_smd_capacitors:c_1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E30A6A/52E37CB9;
-Reference = C616;
-ValeurCmp = 10u 6.3V Ta;
-IdModule  = w_smd_capacitors:c_tant_B;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E30A6A/52EA28C3;
 Reference = C617;
 ValeurCmp = 470u 6.3V;
@@ -537,13 +530,6 @@ TimeStamp = /52E30A6A/52F276EF;
 Reference = C622;
 ValeurCmp = 1u MKT;
 IdModule  = w_pth_capacitors:cnp_7x6mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E30A6A/52F2772C;
-Reference = C623;
-ValeurCmp = 100n;
-IdModule  = w_smd_capacitors:c_1206;
 EndCmp
 
 BeginCmp
@@ -614,13 +600,6 @@ TimeStamp = /52D5DBDC/52D1612B;
 Reference = C710;
 ValeurCmp = 100n;
 IdModule  = w_smd_capacitors:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /52D5DBDC/52D16152;
-Reference = C711;
-ValeurCmp = 10u 6.3V Ta;
-IdModule  = w_smd_capacitors:c_tant_B;
 EndCmp
 
 BeginCmp
@@ -708,22 +687,8 @@ IdModule  = w_pth_diodes:diode_do41;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E30A6A/52E3F9E5;
-Reference = D603;
-ValeurCmp = P6KE7V5 TVS;
-IdModule  = w_pth_diodes:diode_do15;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E30A6A/52E3FA9F;
-Reference = D604;
-ValeurCmp = P6KE7V5 TVS;
-IdModule  = w_pth_diodes:diode_do15;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E30A6A/52E4EC1F;
-Reference = D605;
+Reference = D603;
 ValeurCmp = SMLVT3V3;
 IdModule  = w_smd_diode:do214aa;
 EndCmp
@@ -778,13 +743,6 @@ IdModule  = w_smd_diode:sod80c;
 EndCmp
 
 BeginCmp
-TimeStamp = /52D5DBDC/52D32E56;
-Reference = D702;
-ValeurCmp = BAS85;
-IdModule  = w_smd_diode:sod80c;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E75C7A;
 Reference = FB101;
 ValeurCmp = Bead;
@@ -802,7 +760,7 @@ BeginCmp
 TimeStamp = /52E9323C;
 Reference = FB103;
 ValeurCmp = Bead;
-IdModule  = w_pth_resistors:RC07;
+IdModule  = SMD_Packages:SM1812E;
 EndCmp
 
 BeginCmp
@@ -836,13 +794,6 @@ EndCmp
 BeginCmp
 TimeStamp = /52E30A6A/52E3A716;
 Reference = FB602;
-ValeurCmp = Bead;
-IdModule  = w_pth_resistors:RC07;
-EndCmp
-
-BeginCmp
-TimeStamp = /52D5DBDC/52D33214;
-Reference = FB701;
 ValeurCmp = Bead;
 IdModule  = w_pth_resistors:RC07;
 EndCmp
@@ -950,6 +901,13 @@ TimeStamp = /52DB9C78/52DBAE25;
 Reference = P303;
 ValeurCmp = DB9 Ribbon 1;
 IdModule  = w_conn_strip:vasch_strip_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52DB9C78/5308B36A;
+Reference = P304;
+ValeurCmp = UART_SEL;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -1425,14 +1383,14 @@ BeginCmp
 TimeStamp = /52E30A6A/52E342A9;
 Reference = R603;
 ValeurCmp = 330 0.5W;
-IdModule  = w_pth_resistors:RC07;
+IdModule  = w_pth_resistors:RC05;
 EndCmp
 
 BeginCmp
 TimeStamp = /52E30A6A/52E3AB41;
 Reference = R604;
 ValeurCmp = 330 0.5W;
-IdModule  = w_pth_resistors:RC07;
+IdModule  = w_pth_resistors:RC05;
 EndCmp
 
 BeginCmp
