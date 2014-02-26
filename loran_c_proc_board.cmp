@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-jul-14)-product date = Вс. 23 февр. 2014 22:18:55
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Вт. 25 февр. 2014 23:23:50
 
 BeginCmp
 TimeStamp = /52EA6CDB;
@@ -543,14 +543,14 @@ BeginCmp
 TimeStamp = /52D5DBDC/52D26A81;
 Reference = C702;
 ValeurCmp = 100n;
-IdModule  = w_smd_capacitors:c_0805;
+IdModule  = w_smd_capacitors:c_1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /52D5DBDC/52D26A2D;
 Reference = C703;
 ValeurCmp = 100n;
-IdModule  = w_smd_capacitors:c_0805;
+IdModule  = w_smd_capacitors:c_1206;
 EndCmp
 
 BeginCmp
@@ -1422,20 +1422,6 @@ IdModule  = w_smd_resistors:r_1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E30A6A/52E4C1E9;
-Reference = R609;
-ValeurCmp = Rt;
-IdModule  = w_smd_resistors:r_1210;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E30A6A/52E545CA;
-Reference = R610;
-ValeurCmp = Rt;
-IdModule  = w_smd_resistors:r_1210;
-EndCmp
-
-BeginCmp
 TimeStamp = /52E30A6A/52E4D3EC;
 Reference = R611;
 ValeurCmp = 3.3k;
@@ -1468,13 +1454,6 @@ TimeStamp = /52E30A6A/52F27701;
 Reference = R615;
 ValeurCmp = 3.3k;
 IdModule  = w_smd_resistors:r_1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /52E30A6A/52F276E2;
-Reference = R616;
-ValeurCmp = Rt;
-IdModule  = w_smd_resistors:r_1210;
 EndCmp
 
 BeginCmp
@@ -1565,7 +1544,7 @@ BeginCmp
 TimeStamp = /52D5DBDC/52D2696E;
 Reference = R713;
 ValeurCmp = 100;
-IdModule  = w_smd_resistors:r_1206;
+IdModule  = w_smd_resistors:r_0805;
 EndCmp
 
 BeginCmp
