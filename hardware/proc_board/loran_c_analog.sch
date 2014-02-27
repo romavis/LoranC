@@ -841,8 +841,6 @@ F 3 "" H 5800 2100 60  0000 C CNN
 	1    5800 2100
 	1    0    0    -1  
 $EndComp
-Text Notes 7900 6300 0    60   ~ 0
-Rt: line termination load
 Text Label 2500 1100 0    60   ~ 0
 +15V_AS
 Text Label 2500 3600 0    60   ~ 0
@@ -1317,4 +1315,6 @@ Wire Wire Line
 	9700 2800 10000 2800
 Wire Notes Line
 	6900 550  6900 6500
+Text Notes 7350 6400 0    60   ~ 0
+Replace R615, R607, R608 with appropriate resistors\nif correct signal line termination is required
 $EndSCHEMATC

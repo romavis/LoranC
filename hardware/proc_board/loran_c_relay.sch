@@ -69,8 +69,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title "Optocoupled relay drive circuit"
-Date ""
+Title "Optocoupled GPIO"
+Date "20 февр. 2014"
 Rev ""
 Comp "Roman Dobrodiy (aka RomaVis)"
 Comment1 ""

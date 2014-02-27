@@ -123,7 +123,7 @@ $EndSheet
 $Sheet
 S 5150 6400 1000 500 
 U 52DF2AF5
-F0 "Relay optoisolation" 50
+F0 "GPIO" 50
 F1 "loran_c_relay.sch" 50
 F2 "RELAY1_IN" I L 5150 6500 60 
 F3 "RELAY2_IN" I L 5150 6600 60 

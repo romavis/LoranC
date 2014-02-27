@@ -6,3 +6,7 @@
 #KDE files
 
 .directory
+
+#Some less interesting things
+
+private/*

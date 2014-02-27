@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Вт. 25 февр. 2014 23:23:50
+Cmp-Mod V01 Created by CvPcb (2014-02-24 BZR 4719)-product date = Ср. 26 февр. 2014 22:39:30
 
 BeginCmp
 TimeStamp = /52EA6CDB;
@@ -652,7 +652,7 @@ IdModule  = w_smd_diode:sod80c;
 EndCmp
 
 BeginCmp
-TimeStamp = /52DB7EB9/52EED8E3;
+TimeStamp = /52DB7EB9/530E562A;
 Reference = D201;
 ValeurCmp = LED_ETH;
 IdModule  = led_holder:LED-306;

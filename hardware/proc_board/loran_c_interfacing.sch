@@ -70,7 +70,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
 Title "SPI interface"
-Date ""
+Date "23 янв. 2014"
 Rev ""
 Comp "Roman Dobrodiy (aka RomaVis)"
 Comment1 ""

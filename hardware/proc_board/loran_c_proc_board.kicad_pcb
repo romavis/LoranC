@@ -3,9 +3,9 @@
   (general
     (links 571)
     (no_connects 2)
-    (area 47.717858 22.025 242.634525 146.200001)
+    (area 55.424999 33.524999 225.575001 133.675001)
     (thickness 1.6)
-    (drawings 31)
+    (drawings 30)
     (tracks 1699)
     (zones 0)
     (modules 243)
@@ -76,9 +76,9 @@
     (pad_to_mask_clearance 0.075)
     (solder_mask_min_width 0.15)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFEF7FF)
     (pcbplotparams
-      (layerselection 15761409)
+      (layerselection 12615681)
       (usegerberextensions false)
       (excludeedgelayer false)
       (linewidth 0.150000)
@@ -92,7 +92,7 @@
       (hpglpenoverlay 2)
       (psnegative false)
       (psa4output false)
-      (plotreference true)
+      (plotreference false)
       (plotvalue false)
       (plotothertext false)
       (plotinvisibletext false)
@@ -467,11 +467,11 @@
     (add_net VDD)
   )
 
-  (module Connect:RJ45_8 (layer F.Cu) (tedit 530E4AF9) (tstamp 530B4295)
+  (module Connect:RJ45_8 (layer F.Cu) (tedit 530E54E4) (tstamp 530B4295)
     (at 219.456 96.732 90)
     (tags RJ45)
     (path /52DB7EB9/52D98403)
-    (fp_text reference J201 (at 0.032 1.644 90) (layer F.SilkS)
+    (fp_text reference J201 (at 8.832 -7.456 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value RJ45 (at 0.032 -1.156 90) (layer F.SilkS)
@@ -510,11 +510,11 @@
     )
   )
 
-  (module w_smd_lqfp:TQFP-100 (layer F.Cu) (tedit 52FD487D) (tstamp 52F532BF)
+  (module w_smd_lqfp:TQFP-100 (layer F.Cu) (tedit 530E5969) (tstamp 52F532BF)
     (at 137 94.4 270)
     (descr TQFP-100)
     (path /52D5DBDC/52D15CFB)
-    (fp_text reference U701 (at 0 -1.00076 270) (layer F.SilkS)
+    (fp_text reference U701 (at -9.3 3.9 360) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value STM32F407VG (at 0 1.00076 270) (layer F.SilkS)
@@ -711,13 +711,13 @@
     )
   )
 
-  (module SMD_Packages:SOT223 (layer F.Cu) (tedit 52E69B1E) (tstamp 52E30347)
+  (module SMD_Packages:SOT223 (layer F.Cu) (tedit 530E585D) (tstamp 52E30347)
     (at 112.6 115.8)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /52E30A6A/52E372F3)
     (attr smd)
-    (fp_text reference U602 (at 0 -0.762) (layer F.SilkS)
+    (fp_text reference U602 (at -6 3.1) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value LD1117S33 (at 0 0.762) (layer F.SilkS)
@@ -746,11 +746,11 @@
     )
   )
 
-  (module w_pth_capacitors:CP_10x12.5mm (layer F.Cu) (tedit 5264211A) (tstamp 5308C255)
+  (module w_pth_capacitors:CP_10x12.5mm (layer F.Cu) (tedit 530E52A7) (tstamp 5308C255)
     (at 79.2 81.5 270)
     (descr "Capacitor, pol, cyl 10x12.5mm")
     (path /52E797F3)
-    (fp_text reference C101 (at 0 -6.6 270) (layer F.SilkS)
+    (fp_text reference C101 (at 0 6.7 450) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "470u 16V LowE" (at 0 6.6 270) (layer F.SilkS)
@@ -773,11 +773,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F734)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5236) (tstamp 52E2F734)
     (at 84.4 71.8 270)
     (descr "SMT capacitor, 1206")
     (path /52E76524)
-    (fp_text reference C102 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C102 (at 0 1.5 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -800,11 +800,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 4D5D91C5) (tstamp 52E2F73F)
+  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 530E524B) (tstamp 52E2F73F)
     (at 91.6 70.5 270)
     (descr "SMT capacitor, tantalum size B")
     (path /52E7F8F1)
-    (fp_text reference C103 (at 0 1.9685 270) (layer B.SilkS)
+    (fp_text reference C103 (at 0 -2 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "10u 6.3V Ta" (at 0 -1.9685 270) (layer B.SilkS) hide
@@ -853,11 +853,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F763)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5227) (tstamp 52E2F763)
     (at 74.8 59 90)
     (descr "SMT capacitor, 1206")
     (path /52E08D80)
-    (fp_text reference C106 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C106 (at 0 1.6 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -880,11 +880,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 4D5D91C5) (tstamp 530527D7)
+  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 530E51E2) (tstamp 530527D7)
     (at 79 51.8 90)
     (descr "SMT capacitor, tantalum size B")
     (path /52E08D8C)
-    (fp_text reference C107 (at 0 1.9685 90) (layer B.SilkS)
+    (fp_text reference C107 (at 0 1.9 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "10u 6.3V Ta" (at 0 -1.9685 90) (layer B.SilkS) hide
@@ -906,11 +906,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F77A)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5B58) (tstamp 52E2F77A)
     (at 82.3 45 90)
     (descr "SMT capacitor, 1206")
     (path /52DFDD01)
-    (fp_text reference C108 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C108 (at 0 1.6 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -960,11 +960,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_A (layer F.Cu) (tedit 4D5D91D2) (tstamp 53068345)
+  (module w_smd_capacitors:c_tant_A (layer F.Cu) (tedit 530E5926) (tstamp 53068345)
     (at 167.6 90.9)
     (descr "SMT capacitor, tantalum size A")
     (path /52DB7EB9/52DA2FF5)
-    (fp_text reference C202 (at 0.0254 -1.2954) (layer F.SilkS)
+    (fp_text reference C202 (at -1.4 1.4) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "2.2u 6.3V Ta" (at 0 1.27) (layer F.SilkS) hide
@@ -986,11 +986,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F7B5)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E594F) (tstamp 52E2F7B5)
     (at 171.7 96.8)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52DA338F)
-    (fp_text reference C204 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C204 (at 0 1.6) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27) (layer B.SilkS) hide
@@ -1013,11 +1013,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_A (layer F.Cu) (tedit 4D5D91D2) (tstamp 52E2F7CC)
+  (module w_smd_capacitors:c_tant_A (layer F.Cu) (tedit 530E58CF) (tstamp 52E2F7CC)
     (at 173.9 88.5)
     (descr "SMT capacitor, tantalum size A")
     (path /52DB7EB9/52DA7DA3)
-    (fp_text reference C206 (at 0.0254 -1.2954) (layer F.SilkS)
+    (fp_text reference C206 (at -1.7 1.4) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "2.2u 6.3V Ta" (at 0 1.27) (layer F.SilkS) hide
@@ -1039,11 +1039,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 4D5D91C5) (tstamp 52ED6A1B)
+  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 530E5598) (tstamp 52ED6A1B)
     (at 198.501 87.334)
     (descr "SMT capacitor, tantalum size B")
     (path /52DB7EB9/52DADF25)
-    (fp_text reference C207 (at 0 1.9685) (layer B.SilkS)
+    (fp_text reference C207 (at -0.001 1.966) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "10u 6.3V Ta" (at 0 -1.9685) (layer B.SilkS) hide
@@ -1065,11 +1065,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52ED6A28)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5590) (tstamp 52ED6A28)
     (at 195.961 84.413)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52DA14CA)
-    (fp_text reference C208 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C208 (at 0.039 -1.513) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27) (layer B.SilkS) hide
@@ -1092,11 +1092,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F807)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E553B) (tstamp 52E2F807)
     (at 190.373 96.741)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52DB3CB4)
-    (fp_text reference C211 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C211 (at 0.027 1.559) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 22n (at 0 -1.27) (layer B.SilkS) hide
@@ -1119,12 +1119,12 @@
     )
   )
 
-  (module w_pth_capacitors:cnp_6mm_disc (layer F.Cu) (tedit 530B4EFD) (tstamp 52E2F811)
+  (module w_pth_capacitors:cnp_6mm_disc (layer F.Cu) (tedit 530E54DB) (tstamp 52E2F811)
     (at 220.3 108.5)
     (descr "6mm disc ceramic capacitor")
     (tags C)
     (path /52DB7EB9/52D9ED19)
-    (fp_text reference C212 (at 0 -3.81) (layer F.SilkS)
+    (fp_text reference C212 (at 0 2) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value "1n 2000V" (at 0 -2.286) (layer F.SilkS) hide
@@ -1145,11 +1145,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E5765C)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5A79) (tstamp 52E5765C)
     (at 157.2825 55.675 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBC2D6)
-    (fp_text reference C301 (at 0.0254 -1.2954 90) (layer F.SilkS)
+    (fp_text reference C301 (at -0.025 -1.4825 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 90) (layer F.SilkS) hide
@@ -1172,11 +1172,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E5732C)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5A7E) (tstamp 52E5732C)
     (at 154.7425 59.485 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBC2E1)
-    (fp_text reference C302 (at 0.0254 -1.2954 90) (layer F.SilkS)
+    (fp_text reference C302 (at -0.015 -1.5425 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 90) (layer F.SilkS) hide
@@ -1253,11 +1253,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E2F84D)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5ACD) (tstamp 52E2F84D)
     (at 171.5065 55.675 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBD9E3)
-    (fp_text reference C305 (at 0.0254 -1.2954 90) (layer F.SilkS)
+    (fp_text reference C305 (at 2.775 -0.0065 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 90) (layer F.SilkS) hide
@@ -1280,11 +1280,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E2F859)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5AD4) (tstamp 52E2F859)
     (at 168.9665 59.485 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBD9E9)
-    (fp_text reference C306 (at 0.0254 -1.2954 90) (layer F.SilkS)
+    (fp_text reference C306 (at -2.915 0.0335 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 90) (layer F.SilkS) hide
@@ -1307,11 +1307,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E57346)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5A84) (tstamp 52E57346)
     (at 157.2825 59.485 270)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBC2CB)
-    (fp_text reference C307 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C307 (at 0.015 1.5825 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -1334,11 +1334,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E57360)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5A89) (tstamp 52E57360)
     (at 154.7425 62.279 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBC2AF)
-    (fp_text reference C308 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C308 (at -0.021 -1.5425 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1361,11 +1361,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F87D)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5B36) (tstamp 52E2F87D)
     (at 171.5065 59.485 270)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBD9DD)
-    (fp_text reference C309 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C309 (at 0.015 1.6065 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -1388,11 +1388,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F889)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5ADD) (tstamp 52E2F889)
     (at 168.9665 62.279 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBD9D7)
-    (fp_text reference C310 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C310 (at -0.021 -1.5665 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1415,11 +1415,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F895)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5AF8) (tstamp 52E2F895)
     (at 185.7305 59.485 270)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBD493)
-    (fp_text reference C311 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C311 (at 0.015 1.6305 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -1442,11 +1442,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F8A1)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5AFD) (tstamp 52E2F8A1)
     (at 183.1905 62.279 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DBD48D)
-    (fp_text reference C312 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C312 (at -0.021 -1.5905 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1469,11 +1469,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F8AD)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5B2B) (tstamp 52E2F8AD)
     (at 166.0455 55.675 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DC089C)
-    (fp_text reference C313 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C313 (at -2.825 -0.0455 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1496,11 +1496,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F8B9)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5AE9) (tstamp 52E2F8B9)
     (at 180.1425 55.675 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DC12B5)
-    (fp_text reference C314 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C314 (at -2.925 -0.0425 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1523,11 +1523,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F8C5)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5B12) (tstamp 52E2F8C5)
     (at 194.3665 55.675 90)
     (descr "SMT capacitor, 1206")
     (path /52DB9C78/52DC12F3)
-    (fp_text reference C315 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C315 (at -2.925 -0.0665 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1550,11 +1550,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_A (layer B.Cu) (tedit 4D5D91D2) (tstamp 52E2F8D0)
+  (module w_smd_capacitors:c_tant_A (layer B.Cu) (tedit 530E5B14) (tstamp 52E2F8D0)
     (at 192.2075 55.675 90)
     (descr "SMT capacitor, tantalum size A")
     (path /52DB9C78/52DC08B3)
-    (fp_text reference C316 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C316 (at -3.125 -0.0075 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "2.2u 6.3V Ta" (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1576,11 +1576,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_A (layer B.Cu) (tedit 4D5D91D2) (tstamp 52E2F8DB)
+  (module w_smd_capacitors:c_tant_A (layer B.Cu) (tedit 530E5AF2) (tstamp 52E2F8DB)
     (at 177.8565 55.675 90)
     (descr "SMT capacitor, tantalum size A")
     (path /52DB9C78/52DC12BB)
-    (fp_text reference C317 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C317 (at -3.225 0.0435 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "2.2u 6.3V Ta" (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1602,11 +1602,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_A (layer B.Cu) (tedit 4D5D91D2) (tstamp 52E2F8E6)
+  (module w_smd_capacitors:c_tant_A (layer B.Cu) (tedit 530E5B23) (tstamp 52E2F8E6)
     (at 163.6325 55.675 90)
     (descr "SMT capacitor, tantalum size A")
     (path /52DB9C78/52DC12F9)
-    (fp_text reference C318 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C318 (at -3.025 -0.0325 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "2.2u 6.3V Ta" (at 0 -1.27 90) (layer B.SilkS) hide
@@ -1655,11 +1655,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F916)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5B47) (tstamp 52E2F916)
     (at 107.2 70.7 180)
     (descr "SMT capacitor, 1206")
     (path /52DAFA41/52DDD653)
-    (fp_text reference C401 (at 0.0254 1.2954 180) (layer B.SilkS)
+    (fp_text reference C401 (at 0 1.6 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 180) (layer B.SilkS) hide
@@ -1682,11 +1682,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F922)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E56FC) (tstamp 52E2F922)
     (at 123.7905 47.843 270)
     (descr "SMT capacitor, 1206")
     (path /52DAFA41/52DDDB06)
-    (fp_text reference C402 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C402 (at -0.043 1.4905 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -1709,11 +1709,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F92E)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E56F3) (tstamp 52E2F92E)
     (at 126.2035 64.607 270)
     (descr "SMT capacitor, 1206")
     (path /52DAFA41/52DDE277)
-    (fp_text reference C403 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C403 (at -0.007 1.5035 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -1736,11 +1736,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 4D5D91C5) (tstamp 52E50C2A)
+  (module w_smd_capacitors:c_tant_B (layer B.Cu) (tedit 530E56E7) (tstamp 52E50C2A)
     (at 123.3 70 90)
     (descr "SMT capacitor, tantalum size B")
     (path /52DAFA41/52DDDCD2)
-    (fp_text reference C404 (at 0 1.9685 90) (layer B.SilkS)
+    (fp_text reference C404 (at 0 -2.1 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value "10u 6.3V Ta" (at 0 -1.9685 90) (layer B.SilkS) hide
@@ -1788,11 +1788,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 5308C248)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E583F) (tstamp 5308C248)
     (at 122.4 111.6)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E47376)
-    (fp_text reference C601 (at 0.0254 -1.2954) (layer F.SilkS)
+    (fp_text reference C601 (at -2.8 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 1n (at 0 1.27) (layer F.SilkS) hide
@@ -1815,11 +1815,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E2F95C)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E57EE) (tstamp 52E2F95C)
     (at 132.8 111.6)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E47381)
-    (fp_text reference C602 (at 0.0254 -1.2954) (layer F.SilkS)
+    (fp_text reference C602 (at 2.9 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 1n (at 0 1.27) (layer F.SilkS) hide
@@ -1842,11 +1842,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F968)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5750) (tstamp 52E2F968)
     (at 96.5 98.6 180)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E34706)
-    (fp_text reference C603 (at 0.0254 1.2954 180) (layer B.SilkS)
+    (fp_text reference C603 (at 0 1.5 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 180) (layer B.SilkS) hide
@@ -1869,11 +1869,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2F974)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E574A) (tstamp 52E2F974)
     (at 96.5 94.2)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E3A6DA)
-    (fp_text reference C604 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C604 (at 0 1.6) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27) (layer B.SilkS) hide
@@ -1896,12 +1896,12 @@
     )
   )
 
-  (module w_pth_capacitors:CP_6.3x11mm (layer F.Cu) (tedit 52642364) (tstamp 530A6DEE)
+  (module w_pth_capacitors:CP_6.3x11mm (layer F.Cu) (tedit 530E5781) (tstamp 530A6DEE)
     (at 86.7 97.4)
     (descr "Capacitor, pol, cyl 6.3x11mm")
     (path /52E30A6A/52E346B8)
-    (fp_text reference C605 (at 0 -4.7) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+    (fp_text reference C605 (at -4.5 0 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value "100u 25V" (at 0 4.7) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -1923,12 +1923,12 @@
     )
   )
 
-  (module w_pth_capacitors:CP_6.3x11mm (layer F.Cu) (tedit 52642364) (tstamp 530A68DF)
+  (module w_pth_capacitors:CP_6.3x11mm (layer F.Cu) (tedit 530E5789) (tstamp 530A68DF)
     (at 86.7 90.4 90)
     (descr "Capacitor, pol, cyl 6.3x11mm")
     (path /52E30A6A/52E3A727)
-    (fp_text reference C606 (at 0 -4.7 90) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+    (fp_text reference C606 (at 4.5 0 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value "100u 25V" (at 0 4.7 90) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -1950,11 +1950,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E2F9AE)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5816) (tstamp 52E2F9AE)
     (at 121.5 117 270)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E3DE92)
-    (fp_text reference C609 (at 0.0254 -1.2954 270) (layer F.SilkS)
+    (fp_text reference C609 (at 0 1.5 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 270) (layer F.SilkS) hide
@@ -1977,11 +1977,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E2F9BA)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E57EA) (tstamp 52E2F9BA)
     (at 133.7 114.7)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E434CE)
-    (fp_text reference C610 (at 0.0254 -1.2954) (layer F.SilkS)
+    (fp_text reference C610 (at 2.9 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27) (layer F.SilkS) hide
@@ -2004,11 +2004,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer F.Cu) (tedit 4D5D91C5) (tstamp 5309C52E)
+  (module w_smd_capacitors:c_tant_B (layer F.Cu) (tedit 530E584A) (tstamp 5309C52E)
     (at 117.5 123.5 270)
     (descr "SMT capacitor, tantalum size B")
     (path /52E30A6A/52E3E5B6)
-    (fp_text reference C611 (at 0 -1.9685 270) (layer F.SilkS)
+    (fp_text reference C611 (at 0.1 1.9 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "10u 16V Ta" (at 0 1.9685 270) (layer F.SilkS) hide
@@ -2030,11 +2030,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer F.Cu) (tedit 4D5D91C5) (tstamp 52E2F9D0)
+  (module w_smd_capacitors:c_tant_B (layer F.Cu) (tedit 530E57F5) (tstamp 52E2F9D0)
     (at 134 119.3)
     (descr "SMT capacitor, tantalum size B")
     (path /52E30A6A/52E434D4)
-    (fp_text reference C612 (at 0 -1.9685) (layer F.SilkS)
+    (fp_text reference C612 (at 3.2 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "10u 16V Ta" (at 0 1.9685) (layer F.SilkS) hide
@@ -2056,11 +2056,11 @@
     )
   )
 
-  (module w_pth_capacitors:CP_10x12.5mm (layer F.Cu) (tedit 52E569DD) (tstamp 52E2F9DC)
+  (module w_pth_capacitors:CP_10x12.5mm (layer F.Cu) (tedit 530E52FC) (tstamp 52E2F9DC)
     (at 77.6 112.2 270)
     (descr "Capacitor, pol, cyl 10x12.5mm")
     (path /52E30A6A/52E34681)
-    (fp_text reference C613 (at 0 -6.6 270) (layer F.SilkS)
+    (fp_text reference C613 (at 5.2 6.5 360) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "470u 16V LowE" (at 0 0 270) (layer F.SilkS)
@@ -2083,11 +2083,11 @@
     )
   )
 
-  (module w_pth_capacitors:CP_10x12.5mm (layer F.Cu) (tedit 52E569D7) (tstamp 52E2F9E8)
+  (module w_pth_capacitors:CP_10x12.5mm (layer F.Cu) (tedit 530E5313) (tstamp 52E2F9E8)
     (at 77.6 122.9 90)
     (descr "Capacitor, pol, cyl 10x12.5mm")
     (path /52E30A6A/52E3AC1C)
-    (fp_text reference C614 (at 0 -6.6 90) (layer F.SilkS)
+    (fp_text reference C614 (at -7.4 0 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "470u 16V LowE" (at 0 0 90) (layer F.SilkS)
@@ -2110,11 +2110,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E2F9F4)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5851) (tstamp 52E2F9F4)
     (at 112.6 122.1)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E36F7F)
-    (fp_text reference C615 (at 0.0254 -1.2954) (layer F.SilkS)
+    (fp_text reference C615 (at 0 1.6) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27) (layer F.SilkS) hide
@@ -2137,12 +2137,12 @@
     )
   )
 
-  (module w_pth_capacitors:CP_6.3x11mm (layer F.Cu) (tedit 52642364) (tstamp 5308C9D5)
+  (module w_pth_capacitors:CP_6.3x11mm (layer F.Cu) (tedit 530E53B3) (tstamp 5308C9D5)
     (at 121.8 106.7 270)
     (descr "Capacitor, pol, cyl 6.3x11mm")
     (path /52E30A6A/52EA28C3)
-    (fp_text reference C617 (at 0 -4.7 270) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+    (fp_text reference C617 (at -3.7 -3.4 360) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value "470u 6.3V" (at 0 4.7 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -2164,12 +2164,12 @@
     )
   )
 
-  (module w_pth_capacitors:cnp_7x6mm (layer F.Cu) (tedit 52E6659B) (tstamp 52E2FA15)
+  (module w_pth_capacitors:cnp_7x6mm (layer F.Cu) (tedit 530E53EB) (tstamp 52E2FA15)
     (at 93.5 112.8 90)
     (descr "Capacitor non pol, 7x6mm")
     (path /52E30A6A/52E4D00A)
-    (fp_text reference C618 (at 0 -2.032 90) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+    (fp_text reference C618 (at -4.8 0 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value "1.5u MKT" (at 0 2.286 90) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -2189,12 +2189,12 @@
     )
   )
 
-  (module w_pth_capacitors:cnp_7x6mm (layer F.Cu) (tedit 530B4ADC) (tstamp 52E2FA1F)
+  (module w_pth_capacitors:cnp_7x6mm (layer F.Cu) (tedit 530E53F8) (tstamp 52E2FA1F)
     (at 86.7 112.8 90)
     (descr "Capacitor non pol, 7x6mm")
     (path /52E30A6A/52E545D7)
-    (fp_text reference C619 (at 0 -2.032 90) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+    (fp_text reference C619 (at -4.8 0 180) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value "1.5u MKT" (at 0 2.286 90) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -2214,11 +2214,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2FA2B)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E540A) (tstamp 52E2FA2B)
     (at 96.9 114.5 90)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E53433)
-    (fp_text reference C620 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C620 (at 0 1.5 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -2241,11 +2241,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52E2FA37)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5402) (tstamp 52E2FA37)
     (at 90.1 114.5 90)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/52E54631)
-    (fp_text reference C621 (at 0.0254 1.2954 90) (layer B.SilkS)
+    (fp_text reference C621 (at 0 1.5 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 90) (layer B.SilkS) hide
@@ -2268,11 +2268,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52FCD67E)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E58BF) (tstamp 52FCD67E)
     (at 147.3 76.9 180)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52E1246C)
-    (fp_text reference C701 (at 0.0254 1.2954 180) (layer B.SilkS)
+    (fp_text reference C701 (at 0 1.6 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 10n (at 0 -1.27 180) (layer B.SilkS) hide
@@ -2295,11 +2295,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_tant_B (layer F.Cu) (tedit 4D5D91C5) (tstamp 52E2FA66)
+  (module w_smd_capacitors:c_tant_B (layer F.Cu) (tedit 530E538C) (tstamp 52E2FA66)
     (at 117.4 102.3)
     (descr "SMT capacitor, tantalum size B")
     (path /52D5DBDC/52D26A76)
-    (fp_text reference C704 (at 0 -1.9685) (layer F.SilkS)
+    (fp_text reference C704 (at 0 2) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "10u 6.3V Ta" (at 0 1.9685) (layer F.SilkS) hide
@@ -2347,11 +2347,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52FE9FA8)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E57CA) (tstamp 52FE9FA8)
     (at 141.7 106.3 90)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52E48D24)
-    (fp_text reference C712 (at 0.0254 -1.2954 90) (layer F.SilkS)
+    (fp_text reference C712 (at 0 -1.6 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "2.2u 10V CER" (at 0 1.27 90) (layer F.SilkS) hide
@@ -2374,11 +2374,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52FCCEBE)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E58AF) (tstamp 52FCCEBE)
     (at 149.6 87.3 270)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52E48D47)
-    (fp_text reference C713 (at 0.0254 -1.2954 270) (layer F.SilkS)
+    (fp_text reference C713 (at -2.8 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "2.2u 10V CER" (at 0 1.27 270) (layer F.SilkS) hide
@@ -2401,11 +2401,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52F2C9C1)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5728) (tstamp 52F2C9C1)
     (at 124.4 88.1 270)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52D287C3)
-    (fp_text reference C714 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C714 (at -2.9 0 360) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 15p (at 0 -1.27 270) (layer B.SilkS) hide
@@ -2428,11 +2428,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52F2C9CE)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5722) (tstamp 52F2C9CE)
     (at 122.2 88.1 270)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52D287DF)
-    (fp_text reference C715 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C715 (at -2.9 0 360) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 15p (at 0 -1.27 270) (layer B.SilkS) hide
@@ -2570,11 +2570,11 @@
     )
   )
 
-  (module w_pth_diodes:diode_do41 (layer F.Cu) (tedit 52E569CB) (tstamp 52E2FB61)
+  (module w_pth_diodes:diode_do41 (layer F.Cu) (tedit 530E52DB) (tstamp 52E2FB61)
     (at 68.7 107.8 90)
     (descr "Diode, DO-41 package")
     (path /52E30A6A/52E342BD)
-    (fp_text reference D601 (at 0 2.54 90) (layer F.SilkS)
+    (fp_text reference D601 (at -5.1 -2.4 90) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "8.2V 1W" (at 0 0 90) (layer F.SilkS)
@@ -2628,11 +2628,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer F.Cu) (tedit 4904752C) (tstamp 52E2FBAE)
+  (module w_smd_diode:sod80c (layer F.Cu) (tedit 530E5345) (tstamp 52E2FBAE)
     (at 93.5 107.5 180)
     (descr SOD80C)
     (path /52E30A6A/52E4E9FC)
-    (fp_text reference D606 (at 0 -1.4224 180) (layer F.SilkS)
+    (fp_text reference D606 (at 3.1 0.3 270) (layer F.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)))
     )
     (fp_text value BAS85 (at 0.0254 1.397 180) (layer F.SilkS) hide
@@ -2656,11 +2656,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer B.Cu) (tedit 4904752C) (tstamp 52E2FBBB)
+  (module w_smd_diode:sod80c (layer B.Cu) (tedit 530E5415) (tstamp 52E2FBBB)
     (at 93.5 107.5)
     (descr SOD80C)
     (path /52E30A6A/52E4EA13)
-    (fp_text reference D607 (at 0 1.4224) (layer B.SilkS)
+    (fp_text reference D607 (at -3.1 -0.3 90) (layer B.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
     )
     (fp_text value BAS85 (at 0.0254 -1.397) (layer B.SilkS) hide
@@ -2684,11 +2684,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer F.Cu) (tedit 4904752C) (tstamp 52E2FBC8)
+  (module w_smd_diode:sod80c (layer F.Cu) (tedit 530E534D) (tstamp 52E2FBC8)
     (at 86.7 107.5 180)
     (descr SOD80C)
     (path /52E30A6A/52E545F5)
-    (fp_text reference D608 (at 0 -1.4224 180) (layer F.SilkS)
+    (fp_text reference D608 (at 3.1 0.3 270) (layer F.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)))
     )
     (fp_text value BAS85 (at 0.0254 1.397 180) (layer F.SilkS) hide
@@ -2712,11 +2712,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer B.Cu) (tedit 4904752C) (tstamp 52E2FBD5)
+  (module w_smd_diode:sod80c (layer B.Cu) (tedit 530E5418) (tstamp 52E2FBD5)
     (at 86.7 107.5 180)
     (descr SOD80C)
     (path /52E30A6A/52E545FB)
-    (fp_text reference D609 (at 0 1.4224 180) (layer B.SilkS)
+    (fp_text reference D609 (at 3.1 0.3 270) (layer B.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
     )
     (fp_text value BAS85 (at 0.0254 -1.397 180) (layer B.SilkS) hide
@@ -2740,11 +2740,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer B.Cu) (tedit 4904752C) (tstamp 52E2FBE2)
+  (module w_smd_diode:sod80c (layer B.Cu) (tedit 530E58B9) (tstamp 52E2FBE2)
     (at 147.3 79.5)
     (descr SOD80C)
     (path /52D5DBDC/52E23989)
-    (fp_text reference D701 (at 0 1.4224) (layer B.SilkS)
+    (fp_text reference D701 (at 0 1.6) (layer B.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
     )
     (fp_text value BAS85 (at 0.0254 -1.397) (layer B.SilkS) hide
@@ -2768,13 +2768,13 @@
     )
   )
 
-  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 4B90E153) (tstamp 52E2FBFC)
+  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 530E515E) (tstamp 52E2FBFC)
     (at 66.5 82.9 270)
     (descr "Resistor, RC07")
     (tags R)
     (path /52E75C7A)
     (autoplace_cost180 10)
-    (fp_text reference FB101 (at 0.127 -1.016 270) (layer F.SilkS)
+    (fp_text reference FB101 (at 0.1 -1 270) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value Bead (at 0 1.016 270) (layer F.SilkS) hide
@@ -2798,13 +2798,13 @@
     )
   )
 
-  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 4B90E153) (tstamp 53067FE4)
+  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 530E550E) (tstamp 53067FE4)
     (at 192.4 84.4)
     (descr "Resistor, RC07")
     (tags R)
     (path /52DB7EB9/52DAC92B)
     (autoplace_cost180 10)
-    (fp_text reference FB201 (at 0.127 -1.016) (layer F.SilkS)
+    (fp_text reference FB201 (at 0 -3.2) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value Bead (at 0 1.016) (layer F.SilkS) hide
@@ -2858,13 +2858,13 @@
     )
   )
 
-  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 4B90E153) (tstamp 52F0CD88)
+  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 530E5B43) (tstamp 52F0CD88)
     (at 111 70.7)
     (descr "Resistor, RC07")
     (tags R)
     (path /52DAFA41/52DDD753)
     (autoplace_cost180 10)
-    (fp_text reference FB401 (at 0.127 -1.016) (layer F.SilkS)
+    (fp_text reference FB401 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value Bead (at 0 1.016) (layer F.SilkS) hide
@@ -2888,12 +2888,12 @@
     )
   )
 
-  (module w_pth_ic:dil_4-300 (layer F.Cu) (tedit 530B4B8A) (tstamp 52E2FC8D)
+  (module w_pth_ic:dil_4-300 (layer F.Cu) (tedit 530E543B) (tstamp 52E2FC8D)
     (at 167 127.7 270)
     (descr "IC, DIL4 x 0,3\"")
     (tags DIL)
     (path /52DF2AF5/52DF2D38)
-    (fp_text reference IC501 (at -3.556 0 360) (layer F.SilkS)
+    (fp_text reference IC501 (at 3.7 0 360) (layer F.SilkS)
       (effects (font (size 1.524 1.143) (thickness 0.28702)))
     )
     (fp_text value PC817 (at 0.508 0 270) (layer F.SilkS)
@@ -2921,12 +2921,12 @@
     )
   )
 
-  (module w_pth_ic:dil_4-300 (layer F.Cu) (tedit 52E4509A) (tstamp 52E2FC9C)
+  (module w_pth_ic:dil_4-300 (layer F.Cu) (tedit 530E5442) (tstamp 52E2FC9C)
     (at 167 121.5 270)
     (descr "IC, DIL4 x 0,3\"")
     (tags DIL)
     (path /52DF2AF5/52DF2D74)
-    (fp_text reference IC502 (at -3.556 0 360) (layer F.SilkS)
+    (fp_text reference IC502 (at -3.7 0 360) (layer F.SilkS)
       (effects (font (size 1.524 1.143) (thickness 0.28702)))
     )
     (fp_text value PC817 (at 0.508 0 270) (layer F.SilkS)
@@ -2954,12 +2954,12 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 530B4C45) (tstamp 52FD59F6)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 530E5604) (tstamp 52FD59F6)
     (at 128.5 81.2)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /52D5DBDC/52D26D29)
-    (fp_text reference JP701 (at 0 -2.286) (layer F.SilkS)
+    (fp_text reference JP701 (at 0 -2.4) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_text value BOOT_SEL (at 0 2.3) (layer F.SilkS) hide
@@ -2982,12 +2982,12 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 530B4C3D) (tstamp 52E2FCD2)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 530E55FF) (tstamp 52E2FCD2)
     (at 143.1 78.2 270)
     (descr "1 pin")
     (tags "CONN DEV")
     (path /52D5DBDC/52E12B88)
-    (fp_text reference JP702 (at 0 -2.286 270) (layer F.SilkS)
+    (fp_text reference JP702 (at 0 2.5 270) (layer F.SilkS)
       (effects (font (size 1.27 1.27) (thickness 0.2032)))
     )
     (fp_text value RESET (at 0 2.3 270) (layer F.SilkS) hide
@@ -3010,12 +3010,12 @@
     )
   )
 
-  (module w_conn_strip:vasch_strip_5x2 (layer F.Cu) (tedit 530B50B1) (tstamp 52FCD0D0)
+  (module w_conn_strip:vasch_strip_5x2 (layer F.Cu) (tedit 530E55F6) (tstamp 52FCD0D0)
     (at 156.2 78.2 180)
     (descr "Shrouded header, 5x2pin p2.54")
     (tags "CONN DEV")
     (path /52E24534)
-    (fp_text reference P102 (at 0 -5.461 180) (layer F.SilkS)
+    (fp_text reference P102 (at 0 5.6 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value "Cortex SWD" (at 0 5.461 180) (layer F.SilkS) hide
@@ -3132,12 +3132,12 @@
     )
   )
 
-  (module w_conn_strip:vasch_strip_5x2 (layer F.Cu) (tedit 530B5071) (tstamp 52E2FD2C)
+  (module w_conn_strip:vasch_strip_5x2 (layer F.Cu) (tedit 530E5A98) (tstamp 52E2FD2C)
     (at 163.1245 46.785 180)
     (descr "Shrouded header, 5x2pin p2.54")
     (tags "CONN DEV")
     (path /52DB9C78/52DBB081)
-    (fp_text reference P302 (at 0 -5.461 180) (layer F.SilkS)
+    (fp_text reference P302 (at 0.0245 5.885 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value "DB9 Ribbon 2" (at 0 5.461 180) (layer F.SilkS) hide
@@ -3173,12 +3173,12 @@
     )
   )
 
-  (module w_conn_strip:vasch_strip_5x2 (layer F.Cu) (tedit 530B5062) (tstamp 530B4377)
+  (module w_conn_strip:vasch_strip_5x2 (layer F.Cu) (tedit 530E5AA5) (tstamp 530B4377)
     (at 189.6675 46.785 180)
     (descr "Shrouded header, 5x2pin p2.54")
     (tags "CONN DEV")
     (path /52DB9C78/52DBAE25)
-    (fp_text reference P303 (at 0 -5.461 180) (layer F.SilkS)
+    (fp_text reference P303 (at 0.0675 5.785 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value "DB9 Ribbon 1" (at 0 5.461 180) (layer F.SilkS) hide
@@ -3318,14 +3318,14 @@
     )
   )
 
-  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 52E4503A) (tstamp 52E2FD85)
+  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 530E5125) (tstamp 52E2FD85)
     (at 180.8 128.9 180)
     (descr "2 pin vert. connector, Molex KK100 series")
     (path /52DF2AF5/52DF2D50)
     (fp_text reference P501 (at 0 4.572 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
-    (fp_text value "RELAY A" (at 4.064 -0.508 270) (layer F.SilkS)
+    (fp_text value "RELAY A" (at 4.1 -0.6 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start -2.286 -2.286) (end 2.286 -2.286) (layer F.SilkS) (width 0.254))
@@ -3450,11 +3450,11 @@
     )
   )
 
-  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 52FF4FF7) (tstamp 52E2FDCD)
+  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 530E5429) (tstamp 52E2FDCD)
     (at 124.1 124.5 180)
     (descr "2 pin vert. connector, Molex KK100 series")
     (path /52E30A6A/52E427DE)
-    (fp_text reference P601 (at 0 -4.318 180) (layer F.SilkS)
+    (fp_text reference P601 (at 0 -4.6 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "DAC VCO" (at 3.3 -2.3 180) (layer F.SilkS)
@@ -3483,11 +3483,11 @@
     )
   )
 
-  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 52FF4FF1) (tstamp 52FF450A)
+  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 530E5432) (tstamp 52FF450A)
     (at 130 124.5 180)
     (descr "2 pin vert. connector, Molex KK100 series")
     (path /52E30A6A/52E442EB)
-    (fp_text reference P602 (at 0 -4.318 180) (layer F.SilkS)
+    (fp_text reference P602 (at 0 -4.6 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "DAC AGC" (at -2.2 -2.3 180) (layer F.SilkS)
@@ -3516,11 +3516,11 @@
     )
   )
 
-  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 530B4B74) (tstamp 52E2FE03)
+  (module w_conn_kk100:kk100_22-23-2021 (layer F.Cu) (tedit 530E541F) (tstamp 52E2FE03)
     (at 100.3 122 180)
     (descr "2 pin vert. connector, Molex KK100 series")
     (path /52E30A6A/52F276D6)
-    (fp_text reference P604 (at 0 -4.318 180) (layer F.SilkS)
+    (fp_text reference P604 (at 0 -4.6 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "LORAN In" (at 3.81 0 270) (layer F.SilkS)
@@ -3549,11 +3549,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52F2A623)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E55EB) (tstamp 52F2A623)
     (at 163.7 78.2 270)
     (descr "SMT resistor, 1206")
     (path /52ECF207)
-    (fp_text reference R101 (at 0.0254 1.27 270) (layer B.SilkS)
+    (fp_text reference R101 (at 0 -1.7 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100k (at 0 -1.27 270) (layer B.SilkS) hide
@@ -3576,11 +3576,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 5303CE05)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5219) (tstamp 5303CE05)
     (at 66.5 56.5 270)
     (descr "SMT resistor, 1206")
     (path /52EC16F5)
-    (fp_text reference R102 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R102 (at 0 -1.6 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 270) (layer F.SilkS) hide
@@ -3603,11 +3603,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FE79)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E520C) (tstamp 52E2FE79)
     (at 81.9 59 180)
     (descr "SMT resistor, 1206")
     (path /52DFE8BA)
-    (fp_text reference R103 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R103 (at 0 -1.6 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10 (at 0 1.27 180) (layer F.SilkS) hide
@@ -3630,11 +3630,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FE85)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E51A0) (tstamp 52E2FE85)
     (at 90 53.9)
     (descr "SMT resistor, 1206")
     (path /52DFEB05)
-    (fp_text reference R104 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R104 (at 0 -1.4) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 200 (at 0 1.27) (layer F.SilkS) hide
@@ -3657,11 +3657,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E2FE91)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E51C0) (tstamp 52E2FE91)
     (at 90 51 180)
     (descr "SMT resistor, 1206")
     (path /52DFEB10)
-    (fp_text reference R105 (at 0.0254 1.27 180) (layer B.SilkS)
+    (fp_text reference R105 (at 0 -1.5 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 200 (at 0 -1.27 180) (layer B.SilkS) hide
@@ -3684,11 +3684,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FE9D)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E51AB) (tstamp 52E2FE9D)
     (at 97.8 53.9 180)
     (descr "SMT resistor, 1206")
     (path /52DFB8F3)
-    (fp_text reference R106 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R106 (at 0 1.4 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 200 (at 0 1.27 180) (layer F.SilkS) hide
@@ -3711,11 +3711,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E2FEA9)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E51B7) (tstamp 52E2FEA9)
     (at 97.8 51)
     (descr "SMT resistor, 1206")
     (path /52DFB941)
-    (fp_text reference R107 (at 0.0254 1.27) (layer B.SilkS)
+    (fp_text reference R107 (at 0 1.5) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 200 (at 0 -1.27) (layer B.SilkS) hide
@@ -3738,11 +3738,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF09)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5534) (tstamp 52E2FF09)
     (at 190.373 101.567)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52D9ABD8)
-    (fp_text reference R208 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R208 (at 0.027 -1.467) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "49.9E 1%" (at 0 1.27) (layer F.SilkS) hide
@@ -3765,11 +3765,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EEBAC6)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5503) (tstamp 52EEBAC6)
     (at 203.454 84.794 90)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA4FD3)
-    (fp_text reference R209 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R209 (at -2.906 0.046 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 90) (layer F.SilkS) hide
@@ -3792,11 +3792,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF21)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E552C) (tstamp 52E2FF21)
     (at 190.373 98.265)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52D9BAE7)
-    (fp_text reference R210 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R210 (at 0.027 -1.465) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "49.9E 1%" (at 0 1.27) (layer F.SilkS) hide
@@ -3819,11 +3819,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E4B11) (tstamp 52E2FF2D)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E54F1) (tstamp 52E2FF2D)
     (at 211.201 84.54 180)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA4C79)
-    (fp_text reference R211 (at 0.001 -1.46 180) (layer F.SilkS)
+    (fp_text reference R211 (at -2.899 0.04 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 240 (at 0 1.27 180) (layer F.SilkS) hide
@@ -3846,11 +3846,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF39)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5522) (tstamp 52E2FF39)
     (at 190.373 95.217)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52D9BAF2)
-    (fp_text reference R212 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R212 (at 0.027 -1.517) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "49.9E 1%" (at 0 1.27) (layer F.SilkS) hide
@@ -3873,11 +3873,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF45)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E551C) (tstamp 52E2FF45)
     (at 190.373 91.915)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52D9BAFD)
-    (fp_text reference R213 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R213 (at 0.027 -1.515) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "49.9E 1%" (at 0 1.27) (layer F.SilkS) hide
@@ -3927,11 +3927,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF5D)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E54BE) (tstamp 52E2FF5D)
     (at 205.105 108.289 90)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52D9D70A)
-    (fp_text reference R215 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R215 (at -3.011 -0.005 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "75E 1%" (at 0 1.27 90) (layer F.SilkS) hide
@@ -3954,11 +3954,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF69)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E54D5) (tstamp 52E2FF69)
     (at 212.344 108.289 90)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA06CF)
-    (fp_text reference R216 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R216 (at -3.011 0.056 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "75E 1%" (at 0 1.27 90) (layer F.SilkS) hide
@@ -3981,11 +3981,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF75)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E54C2) (tstamp 52E2FF75)
     (at 207.518 108.289 90)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA06DA)
-    (fp_text reference R217 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R217 (at -3.011 -0.018 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "75E 1%" (at 0 1.27 90) (layer F.SilkS) hide
@@ -4008,11 +4008,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FF81)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E54CA) (tstamp 52E2FF81)
     (at 209.931 108.289 90)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA06E5)
-    (fp_text reference R218 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R218 (at -3.011 -0.031 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "75E 1%" (at 0 1.27 90) (layer F.SilkS) hide
@@ -4035,11 +4035,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EEBEC0)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E599C) (tstamp 52EEBEC0)
     (at 151 128.4 90)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D1A)
-    (fp_text reference R501 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R501 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 4.7k (at 0 1.27 90) (layer F.SilkS) hide
@@ -4062,11 +4062,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FFED)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E59A1) (tstamp 52E2FFED)
     (at 154.809 129.743 180)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D20)
-    (fp_text reference R502 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R502 (at 0.009 -1.557 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 180) (layer F.SilkS) hide
@@ -4089,11 +4089,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E2FFF9)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5999) (tstamp 52E2FFF9)
     (at 151 122.2 90)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D56)
-    (fp_text reference R503 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R503 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 4.7k (at 0 1.27 90) (layer F.SilkS) hide
@@ -4116,11 +4116,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E30005)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E59B5) (tstamp 52E30005)
     (at 154.809 123.542 180)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D5C)
-    (fp_text reference R504 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R504 (at -2.891 -1.658 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 180) (layer F.SilkS) hide
@@ -4143,11 +4143,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E30011)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5478) (tstamp 52E30011)
     (at 192.4 118 180)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D8C)
-    (fp_text reference R505 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R505 (at -2.9 0 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 180) (layer F.SilkS) hide
@@ -4170,11 +4170,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E3001D)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5485) (tstamp 52E3001D)
     (at 187.5 116.5 270)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D92)
-    (fp_text reference R506 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R506 (at 2.9 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 270) (layer F.SilkS) hide
@@ -4197,11 +4197,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FE934A)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E546C) (tstamp 52FE934A)
     (at 189.9 122 180)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52FAC369)
-    (fp_text reference R507 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R507 (at -3.1 0 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100 (at 0 1.27 180) (layer F.SilkS) hide
@@ -4224,11 +4224,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E30035)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5A1F) (tstamp 52E30035)
     (at 178.1 115.6 270)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52F94D1F)
-    (fp_text reference R508 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R508 (at -2.8 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 270) (layer F.SilkS) hide
@@ -4251,11 +4251,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E30041)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E59ED) (tstamp 52E30041)
     (at 159.889 127.711 270)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D3E)
-    (fp_text reference R509 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R509 (at -2.811 -0.011 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 200 (at 0 1.27 270) (layer F.SilkS) hide
@@ -4278,11 +4278,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E3004D)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E59F4) (tstamp 52E3004D)
     (at 159.889 121.51 270)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52DF2D7A)
-    (fp_text reference R510 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R510 (at -2.81 -0.011 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 200 (at 0 1.27 270) (layer F.SilkS) hide
@@ -4305,11 +4305,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E30059)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5A1B) (tstamp 52E30059)
     (at 180.9 112.8 270)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52FABDD9)
-    (fp_text reference R511 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R511 (at -2.8 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 270) (layer F.SilkS) hide
@@ -4332,11 +4332,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FE852F)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E547E) (tstamp 52FE852F)
     (at 192.4 115.5)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52F94D34)
-    (fp_text reference R512 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R512 (at 2.9 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27) (layer F.SilkS) hide
@@ -4359,11 +4359,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FEA21B)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5838) (tstamp 52FEA21B)
     (at 126.2 110.2 90)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E4735B)
-    (fp_text reference R601 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R601 (at 2.9 0.3 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 90) (layer F.SilkS) hide
@@ -4386,11 +4386,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EFBDA9)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E582F) (tstamp 52EFBDA9)
     (at 129 110.2 90)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E4736B)
-    (fp_text reference R602 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R602 (at 2.9 0 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 90) (layer F.SilkS) hide
@@ -4413,11 +4413,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E300BB)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E5760) (tstamp 52E300BB)
     (at 92.7 119.3)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E4D873)
-    (fp_text reference R607 (at 0.0254 1.27) (layer B.SilkS)
+    (fp_text reference R607 (at 0 -1.6) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27) (layer B.SilkS) hide
@@ -4440,11 +4440,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E300C7)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E576A) (tstamp 52E300C7)
     (at 87.5 119.3 180)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E545E9)
-    (fp_text reference R608 (at 0.0254 1.27 180) (layer B.SilkS)
+    (fp_text reference R608 (at 0 1.6 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27 180) (layer B.SilkS) hide
@@ -4467,11 +4467,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E300ED)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5338) (tstamp 52E300ED)
     (at 93.5 104.9 180)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E4D3EC)
-    (fp_text reference R611 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R611 (at 0 1.5 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 180) (layer F.SilkS) hide
@@ -4494,11 +4494,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E300F9)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E5365) (tstamp 52E300F9)
     (at 93.5 104.9)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E4D3F7)
-    (fp_text reference R612 (at 0.0254 1.27) (layer B.SilkS)
+    (fp_text reference R612 (at 0 -1.5) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27) (layer B.SilkS) hide
@@ -4521,11 +4521,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E30105)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E531E) (tstamp 52E30105)
     (at 86.7 104.9 180)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E545DD)
-    (fp_text reference R613 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R613 (at 0 1.5 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 180) (layer F.SilkS) hide
@@ -4548,11 +4548,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E30111)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E536C) (tstamp 52E30111)
     (at 86.7 104.9 180)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52E545E3)
-    (fp_text reference R614 (at 0.0254 1.27 180) (layer B.SilkS)
+    (fp_text reference R614 (at 0 1.5 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27 180) (layer B.SilkS) hide
@@ -4575,11 +4575,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E3011D)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E55E1) (tstamp 52E3011D)
     (at 178.4 77.5 180)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52D32118)
-    (fp_text reference R701 (at 0.0254 1.27 180) (layer B.SilkS)
+    (fp_text reference R701 (at 0 -1.6 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27 180) (layer B.SilkS) hide
@@ -4602,11 +4602,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52E30129)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E55D9) (tstamp 52E30129)
     (at 172.8 77.5)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52D32102)
-    (fp_text reference R702 (at 0.0254 1.27) (layer B.SilkS)
+    (fp_text reference R702 (at 0 1.6) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27) (layer B.SilkS) hide
@@ -4629,11 +4629,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FEA07B)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E57AB) (tstamp 52FEA07B)
     (at 154.2 101.7 225)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52D31B1C)
-    (fp_text reference R711 (at 0.0254 -1.27 225) (layer F.SilkS)
+    (fp_text reference R711 (at 0 1.555635 225) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 225) (layer F.SilkS) hide
@@ -4656,11 +4656,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E301A1)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5620) (tstamp 52E301A1)
     (at 127.1 74.5 270)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52D31DEE)
-    (fp_text reference R712 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R712 (at 0 1.5 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 270) (layer F.SilkS) hide
@@ -4772,11 +4772,11 @@
     )
   )
 
-  (module w_smd_dil:so-16 (layer F.Cu) (tedit 4E68854F) (tstamp 52E5738A)
+  (module w_smd_dil:so-16 (layer F.Cu) (tedit 530E5AB1) (tstamp 52E5738A)
     (at 163.1245 59.485 270)
     (descr SO-16)
     (path /52DB9C78/52DBA4A9)
-    (fp_text reference U301 (at 0 -1.016 270) (layer F.SilkS)
+    (fp_text reference U301 (at 5.715 0.0245 360) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value ST3232 (at 0 1.016 270) (layer F.SilkS)
@@ -4842,11 +4842,11 @@
     )
   )
 
-  (module w_smd_dil:so-16 (layer F.Cu) (tedit 4E68854F) (tstamp 52E302A9)
+  (module w_smd_dil:so-16 (layer F.Cu) (tedit 530E5AB9) (tstamp 52E302A9)
     (at 177.3485 59.485 270)
     (descr SO-16)
     (path /52DB9C78/52DBD9D1)
-    (fp_text reference U302 (at 0 -1.016 270) (layer F.SilkS)
+    (fp_text reference U302 (at 5.715 -0.0515 360) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value ST3232 (at 0 1.016 270) (layer F.SilkS)
@@ -4908,11 +4908,11 @@
     )
   )
 
-  (module w_smd_dil:so-16 (layer F.Cu) (tedit 4E68854F) (tstamp 52E302D2)
+  (module w_smd_dil:so-16 (layer F.Cu) (tedit 530E5AC5) (tstamp 52E302D2)
     (at 191.5725 59.485 270)
     (descr SO-16)
     (path /52DB9C78/52DBD487)
-    (fp_text reference U303 (at 0 -1.016 270) (layer F.SilkS)
+    (fp_text reference U303 (at 5.715 -0.0275 360) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value ST3232 (at 0 1.016 270) (layer F.SilkS)
@@ -4978,11 +4978,11 @@
     )
   )
 
-  (module w_smd_dil:so-14 (layer F.Cu) (tedit 4E688543) (tstamp 52F27D8B)
+  (module w_smd_dil:so-14 (layer F.Cu) (tedit 530E5220) (tstamp 52F27D8B)
     (at 74.8 59 270)
     (descr SO-14)
     (path /52DFF671)
-    (fp_text reference U102 (at 0 -1.016 270) (layer F.SilkS)
+    (fp_text reference U102 (at 0 0 270) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value 74AC14 (at 0 1.016 270) (layer F.SilkS)
@@ -5040,11 +5040,11 @@
     )
   )
 
-  (module w_smd_dil:so-14 (layer F.Cu) (tedit 4E688543) (tstamp 52E5604C)
+  (module w_smd_dil:so-14 (layer F.Cu) (tedit 530E565C) (tstamp 52E5604C)
     (at 126.2035 64.607 90)
     (descr SO-14)
     (path /52DAFA41/52DD7C88)
-    (fp_text reference U401 (at 0 -1.016 90) (layer F.SilkS)
+    (fp_text reference U401 (at -5.093 1.9965 360) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value 74AC14 (at 0 1.016 90) (layer F.SilkS)
@@ -5104,11 +5104,11 @@
     )
   )
 
-  (module w_smd_dil:so-14 (layer F.Cu) (tedit 4E688543) (tstamp 52E560BC)
+  (module w_smd_dil:so-14 (layer F.Cu) (tedit 530E5684) (tstamp 52E560BC)
     (at 123.7905 47.843 90)
     (descr SO-14)
     (path /52DAFA41/52DD8927)
-    (fp_text reference U402 (at 0 -1.016 90) (layer F.SilkS)
+    (fp_text reference U402 (at 0.043 -4.8905 90) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value 74AC14 (at 0 1.016 90) (layer F.SilkS)
@@ -5332,14 +5332,14 @@
     )
   )
 
-  (module w_crystal:crystal_tc-38_horiz (layer F.Cu) (tedit 530B4E60) (tstamp 52F2D8E7)
+  (module w_crystal:crystal_tc-38_horiz (layer F.Cu) (tedit 530E571A) (tstamp 52F2D8E7)
     (at 123.3 86.9 180)
     (descr "Crystal, TC-38, horizontal")
     (tags QUARTZ)
     (path /52D5DBDC/5306C745)
     (autoplace_cost180 10)
     (clearance 0.2)
-    (fp_text reference X701 (at -0.65 2.65 270) (layer F.SilkS)
+    (fp_text reference X701 (at 2.7 0 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.2)))
     )
     (fp_text value 32.768KHz (at 0 7 180) (layer F.SilkS)
@@ -5362,11 +5362,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E5286C)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E56C0) (tstamp 52E5286C)
     (at 128.3 55.1 270)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDAF6A)
-    (fp_text reference R401 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R401 (at 1.4 -1.6 450) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 200 (at 0 1.27 270) (layer F.SilkS) hide
@@ -5389,11 +5389,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E52877)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E563C) (tstamp 52E52877)
     (at 119.3 66.5 180)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDC5DF)
-    (fp_text reference R402 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R402 (at 0 -1.5 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10 (at 0 1.27 180) (layer F.SilkS) hide
@@ -5416,11 +5416,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E52882)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5641) (tstamp 52E52882)
     (at 119.3 63.3 180)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDC5D4)
-    (fp_text reference R403 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R403 (at 0 -1.5 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10 (at 0 1.27 180) (layer F.SilkS) hide
@@ -5443,11 +5443,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E5288D)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E564C) (tstamp 52E5288D)
     (at 119.3 60.2 180)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDBDEF)
-    (fp_text reference R404 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R404 (at 0 1.5 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10 (at 0 1.27 180) (layer F.SilkS) hide
@@ -5470,11 +5470,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E52898)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E56A8) (tstamp 52E52898)
     (at 130.6485 45.303)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDA542)
-    (fp_text reference R405 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R405 (at 0.0515 -2.303) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10 (at 0 1.27) (layer F.SilkS) hide
@@ -5497,11 +5497,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E528A3)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E56AD) (tstamp 52E528A3)
     (at 130.6485 47.843)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDAB52)
-    (fp_text reference R406 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R406 (at 0.0515 -3.943 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10 (at 0 1.27) (layer F.SilkS) hide
@@ -5524,11 +5524,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E54A0C)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E56C8) (tstamp 52E54A0C)
     (at 124.6795 53.6215 180)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52DDAE62)
-    (fp_text reference R407 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R407 (at 2.7795 0.0215 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 200 (at 0 1.27 180) (layer F.SilkS) hide
@@ -5551,11 +5551,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E528B9)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E56B3) (tstamp 52E528B9)
     (at 130.8 51.8 90)
     (descr "SMT resistor, 1206")
     (path /52DAFA41/52E62630)
-    (fp_text reference R408 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R408 (at 0 1.7 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 90) (layer F.SilkS) hide
@@ -5578,11 +5578,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E597FD)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E56CE) (tstamp 52E597FD)
     (at 124.7 56.6 180)
     (descr "SMT capacitor, 1206")
     (path /52DAFA41/52E66600)
-    (fp_text reference C405 (at 0.0254 -1.2954 180) (layer F.SilkS)
+    (fp_text reference C405 (at 2.8 0 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 180) (layer F.SilkS) hide
@@ -5605,11 +5605,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E6F1A1)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5577) (tstamp 52E6F1A1)
     (at 182.2 100.6 90)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52DADA96)
-    (fp_text reference C209 (at 0.0254 -1.2954 90) (layer F.SilkS)
+    (fp_text reference C209 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10n (at 0 1.27 90) (layer F.SilkS) hide
@@ -5632,11 +5632,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 52E6F1AC)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E5582) (tstamp 52E6F1AC)
     (at 180.35 91.8 270)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52DADF1A)
-    (fp_text reference C210 (at 0.0254 -1.2954 270) (layer F.SilkS)
+    (fp_text reference C210 (at 0 1.55 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10n (at 0 1.27 270) (layer F.SilkS) hide
@@ -5659,11 +5659,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52E6F1B7)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E556B) (tstamp 52E6F1B7)
     (at 183.515 92.931 270)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA444F)
-    (fp_text reference R207 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R207 (at -0.031 -1.585 450) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value "12.1k 1%" (at 0 1.27 270) (layer F.SilkS) hide
@@ -5686,11 +5686,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52EA4FC7)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E55A7) (tstamp 52EA4FC7)
     (at 197.231 93.566)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52EA566A)
-    (fp_text reference C213 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C213 (at -0.031 -1.566) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 22n (at 0 -1.27) (layer B.SilkS) hide
@@ -5713,11 +5713,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52EA4FD3)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E55B7) (tstamp 52EA4FD3)
     (at 197.231 99.916)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52EA5675)
-    (fp_text reference C214 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C214 (at -0.031 1.584) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 22n (at 0 -1.27) (layer B.SilkS) hide
@@ -5740,11 +5740,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52EA4FDF)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5542) (tstamp 52EA4FDF)
     (at 190.373 103.091)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52EA574A)
-    (fp_text reference C215 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C215 (at 0.027 1.609) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 22n (at 0 -1.27) (layer B.SilkS) hide
@@ -5767,11 +5767,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52EA4FEB)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E554D) (tstamp 52EA4FEB)
     (at 190.373 90.391)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52EA57FD)
-    (fp_text reference C216 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C216 (at 0.027 1.609) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 22n (at 0 -1.27) (layer B.SilkS) hide
@@ -5794,11 +5794,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52ED2B37)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E5937) (tstamp 52ED2B37)
     (at 172.3 98.1 180)
     (descr "SMT resistor, 0805")
     (path /52DB7EB9/52DA69F1)
-    (fp_text reference R203 (at 0 -0.9906 180) (layer F.SilkS)
+    (fp_text reference R203 (at 2.1 0 270) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906 180) (layer F.SilkS) hide
@@ -5821,11 +5821,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52F3B2C7)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E593B) (tstamp 52F3B2C7)
     (at 172.3 100 180)
     (descr "SMT resistor, 0805")
     (path /52DB7EB9/52DA910D)
-    (fp_text reference R204 (at 0 -0.9906 180) (layer F.SilkS)
+    (fp_text reference R204 (at 2.1 0 270) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906 180) (layer F.SilkS) hide
@@ -5848,11 +5848,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52EAB6E9)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E5940) (tstamp 52EAB6E9)
     (at 172.3 102.6 180)
     (descr "SMT resistor, 0805")
     (path /52DB7EB9/52D9DCAC)
-    (fp_text reference R205 (at 0 -0.9906 180) (layer F.SilkS)
+    (fp_text reference R205 (at 2.1 0 270) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906 180) (layer F.SilkS) hide
@@ -5875,11 +5875,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 52EAB564)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 530E58F2) (tstamp 52EAB564)
     (at 175.006 87.851 90)
     (descr "SMT resistor, 0805")
     (path /52DB7EB9/52DB2BCF)
-    (fp_text reference C201 (at 0 0.9906 90) (layer B.SilkS)
+    (fp_text reference C201 (at 0.051 1.294 90) (layer B.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
     )
     (fp_text value 22p (at 0 -0.9906 90) (layer B.SilkS) hide
@@ -5902,11 +5902,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 52EAB56F)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 530E58E8) (tstamp 52EAB56F)
     (at 180.086 87.851 90)
     (descr "SMT resistor, 0805")
     (path /52DB7EB9/52DB2B93)
-    (fp_text reference C203 (at 0 0.9906 90) (layer B.SilkS)
+    (fp_text reference C203 (at 0.051 1.214 90) (layer B.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
     )
     (fp_text value 22p (at 0 -0.9906 90) (layer B.SilkS) hide
@@ -5929,11 +5929,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52EAB57A)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E58D6) (tstamp 52EAB57A)
     (at 174.625 91.017)
     (descr "SMT resistor, 0805")
     (path /52DB7EB9/52D9C53B)
-    (fp_text reference C205 (at 0 -0.9906) (layer F.SilkS)
+    (fp_text reference C205 (at 2.075 -0.017 90) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 470p (at 0 0.9906) (layer F.SilkS) hide
@@ -5956,11 +5956,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52EC0F53)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E58AB) (tstamp 52EC0F53)
     (at 152.6 85.8 90)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52E1DD40)
-    (fp_text reference R715 (at 0 -0.9906 90) (layer F.SilkS)
+    (fp_text reference R715 (at -2.1 0 180) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906 90) (layer F.SilkS) hide
@@ -5983,11 +5983,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 49047394) (tstamp 52ECD76D)
+  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 530E5893) (tstamp 52ECD76D)
     (at 130.5 104.4)
     (descr "SMT capacitor, 0805")
     (path /52D5DBDC/52D160F8)
-    (fp_text reference C706 (at 0 -0.9906) (layer F.SilkS)
+    (fp_text reference C706 (at 0 1.3) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 100n (at 0 0.9906) (layer F.SilkS) hide
@@ -6010,11 +6010,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 49047394) (tstamp 52FE9FB5)
+  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 530E57C1) (tstamp 52FE9FB5)
     (at 143.8 105.7 90)
     (descr "SMT capacitor, 0805")
     (path /52D5DBDC/52D1610A)
-    (fp_text reference C707 (at 0 -0.9906 90) (layer F.SilkS)
+    (fp_text reference C707 (at 0 1.3 90) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 100n (at 0 0.9906 90) (layer F.SilkS) hide
@@ -6037,11 +6037,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 52F2EE33)
+  (module w_smd_capacitors:c_0805 (layer B.Cu) (tedit 530E588A) (tstamp 52F2EE33)
     (at 131 96.8 270)
     (descr "SMT capacitor, 0805")
     (path /52D5DBDC/52D16115)
-    (fp_text reference C708 (at 0 0.9906 270) (layer B.SilkS)
+    (fp_text reference C708 (at 0 1.3 270) (layer B.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.9906 270) (layer B.SilkS) hide
@@ -6064,11 +6064,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 49047394) (tstamp 52FCCECB)
+  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 530E58A5) (tstamp 52FCCECB)
     (at 146.3 85.9 180)
     (descr "SMT capacitor, 0805")
     (path /52D5DBDC/52D16120)
-    (fp_text reference C709 (at 0 -0.9906 180) (layer F.SilkS)
+    (fp_text reference C709 (at 0 1.2 180) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 100n (at 0 0.9906 180) (layer F.SilkS) hide
@@ -6091,11 +6091,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 49047394) (tstamp 52F2D9D6)
+  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 530E562C) (tstamp 52F2D9D6)
     (at 128.5 85.1 270)
     (descr "SMT capacitor, 0805")
     (path /52D5DBDC/52D1612B)
-    (fp_text reference C710 (at 0 -0.9906 270) (layer F.SilkS)
+    (fp_text reference C710 (at 0.2 1.2 270) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 100n (at 0 0.9906 270) (layer F.SilkS) hide
@@ -6118,11 +6118,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52ED2241)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E590E) (tstamp 52ED2241)
     (at 171.4 95.3 180)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA6462)
-    (fp_text reference R201 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R201 (at 2.8 0.6 450) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 180) (layer F.SilkS) hide
@@ -6145,11 +6145,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EEBC34)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5917) (tstamp 52EEBC34)
     (at 171.4 93.1 180)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52DA64B7)
-    (fp_text reference R202 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R202 (at 0 1.5 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 180) (layer F.SilkS) hide
@@ -6172,10 +6172,10 @@
     )
   )
 
-  (module led_holder:LED-306 (layer F.Cu) (tedit 52EE9E2A) (tstamp 52EEB7AD)
+  (module led_holder:LED-306 (layer F.Cu) (tedit 530E54E9) (tstamp 52EEB7AD)
     (at 219.075 83.524 180)
     (path /52DB7EB9/530E562A)
-    (fp_text reference D201 (at 0 -3.81 180) (layer F.SilkS)
+    (fp_text reference D201 (at -0.025 3.224 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value LED_ETH (at 0 3.81 180) (layer F.SilkS)
@@ -6216,11 +6216,11 @@
       (net 92 GND))
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EEB7D8)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E54FB) (tstamp 52EEB7D8)
     (at 206.375 83.397 90)
     (descr "SMT resistor, 1206")
     (path /52DB7EB9/52EE98C1)
-    (fp_text reference R206 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R206 (at 2.797 0.025 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 90) (layer F.SilkS) hide
@@ -6243,12 +6243,12 @@
     )
   )
 
-  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530B43BC) (tstamp 52EEE032)
+  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530E5A47) (tstamp 52EEE032)
     (at 64.5 43.6)
     (descr "Mounting hole")
     (tags "Mounting hole")
     (path /52EF7090)
-    (fp_text reference MH101 (at 0 -4.9) (layer F.SilkS)
+    (fp_text reference MH101 (at 0 -5.4) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value HOLE (at 0 5.00126) (layer F.SilkS) hide
@@ -6270,12 +6270,12 @@
       (net 135 "Net-(MH101-Pad1)"))
   )
 
-  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530B43B4) (tstamp 52EEE03D)
+  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530E5A4B) (tstamp 52EEE03D)
     (at 64.5 123.6)
     (descr "Mounting hole")
     (tags "Mounting hole")
     (path /52EF741F)
-    (fp_text reference MH102 (at 0 -4.9) (layer F.SilkS)
+    (fp_text reference MH102 (at 0 5.7) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value HOLE (at 0 5.00126) (layer F.SilkS) hide
@@ -6297,12 +6297,12 @@
       (net 136 "Net-(MH102-Pad1)"))
   )
 
-  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530B43A9) (tstamp 52EEE096)
+  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530E5A42) (tstamp 52EEE096)
     (at 209.5 123.6)
     (descr "Mounting hole")
     (tags "Mounting hole")
     (path /52EF53B0)
-    (fp_text reference MH103 (at 0 -4.9) (layer F.SilkS)
+    (fp_text reference MH103 (at 0 5.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value HOLE (at 0 5.00126) (layer F.SilkS) hide
@@ -6324,12 +6324,12 @@
       (net 93 GNDPWR))
   )
 
-  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530B4396) (tstamp 52EEE053)
+  (module holes:Hole_3-5mm locked (layer F.Cu) (tedit 530E5A3E) (tstamp 52EEE053)
     (at 209.5 43.6)
     (descr "Mounting hole")
     (tags "Mounting hole")
     (path /52EF52BD)
-    (fp_text reference MH104 (at 0 -4.9) (layer F.SilkS)
+    (fp_text reference MH104 (at 0 -5.4) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_text value HOLE (at 0 5.00126) (layer F.SilkS) hide
@@ -6351,11 +6351,11 @@
       (net 93 GNDPWR))
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EF9C86)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5617) (tstamp 52EF9C86)
     (at 131 72.1 90)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52E635B5)
-    (fp_text reference R716 (at 0.0254 -1.27 90) (layer F.SilkS)
+    (fp_text reference R716 (at 0 -1.5 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 90) (layer F.SilkS) hide
@@ -6378,11 +6378,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EF9CA0)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E560F) (tstamp 52EF9CA0)
     (at 134.5 73.5 180)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52E635AA)
-    (fp_text reference R717 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R717 (at -2.9 0 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 180) (layer F.SilkS) hide
@@ -6405,11 +6405,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52EF9C79)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5613) (tstamp 52EF9C79)
     (at 131 75.8 180)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52E6300A)
-    (fp_text reference R718 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R718 (at -2.9 0 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27 180) (layer F.SilkS) hide
@@ -6432,11 +6432,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52EFAC7E)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5589) (tstamp 52EFAC7E)
     (at 188.8 84.4 180)
     (descr "SMT capacitor, 1206")
     (path /52DB7EB9/52F087D2)
-    (fp_text reference C217 (at 0.0254 1.2954 180) (layer B.SilkS)
+    (fp_text reference C217 (at 0 1.5 180) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 180) (layer B.SilkS) hide
@@ -6459,11 +6459,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52F15970)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E589F) (tstamp 52F15970)
     (at 143 82.8 180)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52F1581B)
-    (fp_text reference R705 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R705 (at 0 -1.6 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 180) (layer F.SilkS) hide
@@ -6486,12 +6486,12 @@
     )
   )
 
-  (module w_pth_capacitors:cnp_7x6mm (layer F.Cu) (tedit 514F7135) (tstamp 52F26B8B)
+  (module w_pth_capacitors:cnp_7x6mm (layer F.Cu) (tedit 530E53D4) (tstamp 52F26B8B)
     (at 100.3 112.8 90)
     (descr "Capacitor non pol, 7x6mm")
     (path /52E30A6A/52F276EF)
-    (fp_text reference C622 (at 0 -4.699 90) (layer F.SilkS)
-      (effects (font (thickness 0.3048)))
+    (fp_text reference C622 (at 0 4.2 90) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.25)))
     )
     (fp_text value "1u MKT" (at 0 4.191 90) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
@@ -6511,11 +6511,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer F.Cu) (tedit 4904752C) (tstamp 52F26BA4)
+  (module w_smd_diode:sod80c (layer F.Cu) (tedit 530E5357) (tstamp 52F26BA4)
     (at 100.3 107.5 180)
     (descr SOD80C)
     (path /52E30A6A/52F2770D)
-    (fp_text reference D610 (at 0 -1.4224 180) (layer F.SilkS)
+    (fp_text reference D610 (at 3.1 0.3 270) (layer F.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)))
     )
     (fp_text value BAS85 (at 0.0254 1.397 180) (layer F.SilkS) hide
@@ -6539,11 +6539,11 @@
     )
   )
 
-  (module w_smd_diode:sod80c (layer B.Cu) (tedit 4904752C) (tstamp 530A8354)
+  (module w_smd_diode:sod80c (layer B.Cu) (tedit 530E5411) (tstamp 530A8354)
     (at 100.3 107.5)
     (descr SOD80C)
     (path /52E30A6A/52F27713)
-    (fp_text reference D611 (at 0 1.4224) (layer B.SilkS)
+    (fp_text reference D611 (at -3.1 -0.3 90) (layer B.SilkS)
       (effects (font (size 0.70104 0.70104) (thickness 0.14986)) (justify mirror))
     )
     (fp_text value BAS85 (at 0.0254 -1.397) (layer B.SilkS) hide
@@ -6567,11 +6567,11 @@
     )
   )
 
-  (module w_conn_kk100:kk100_22-23-2041 (layer F.Cu) (tedit 530B4B63) (tstamp 52F26BB2)
+  (module w_conn_kk100:kk100_22-23-2041 (layer F.Cu) (tedit 530E5423) (tstamp 52F26BB2)
     (at 90.1 122 180)
     (descr "4 pin vert. connector, Molex KK100 series")
     (path /52E30A6A/52F27B5B)
-    (fp_text reference P603 (at 0 -4.318 180) (layer F.SilkS)
+    (fp_text reference P603 (at 0 -4.6 180) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value "QUAD In" (at 0 4.56946 180) (layer F.SilkS)
@@ -6608,11 +6608,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 52F26BD4)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E575A) (tstamp 52F26BD4)
     (at 100.3 119.3)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52F27701)
-    (fp_text reference R615 (at 0.0254 1.27) (layer B.SilkS)
+    (fp_text reference R615 (at 0.1 -1.6) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27) (layer B.SilkS) hide
@@ -6635,11 +6635,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 5307D5E3)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E535D) (tstamp 5307D5E3)
     (at 100.3 104.9 180)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52F276F5)
-    (fp_text reference R617 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R617 (at 0 1.5 180) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27 180) (layer F.SilkS) hide
@@ -6662,11 +6662,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 490473CD) (tstamp 530A836E)
+  (module w_smd_resistors:r_1206 (layer B.Cu) (tedit 530E5361) (tstamp 530A836E)
     (at 100.3 104.9)
     (descr "SMT resistor, 1206")
     (path /52E30A6A/52F276FB)
-    (fp_text reference R618 (at 0.0254 1.27) (layer B.SilkS)
+    (fp_text reference R618 (at 0 -1.5) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -1.27) (layer B.SilkS) hide
@@ -6716,11 +6716,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 49047384) (tstamp 52F2D831)
+  (module w_smd_resistors:r_0805 (layer B.Cu) (tedit 530E5633) (tstamp 52F2D831)
     (at 129.8 84.6 270)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52D26E54)
-    (fp_text reference R704 (at 0 0.9906 270) (layer B.SilkS)
+    (fp_text reference R704 (at 0 -1.3 270) (layer B.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
     )
     (fp_text value 3.3k (at 0 -0.9906 270) (layer B.SilkS) hide
@@ -6743,11 +6743,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 49047394) (tstamp 52F37795)
+  (module w_smd_capacitors:c_0805 (layer F.Cu) (tedit 530E570F) (tstamp 52F37795)
     (at 126.5 88.7 90)
     (descr "SMT capacitor, 0805")
     (path /52F338AF)
-    (fp_text reference C111 (at 0 -0.9906 90) (layer F.SilkS)
+    (fp_text reference C111 (at 2.1 0 180) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 100n (at 0 0.9906 90) (layer F.SilkS) hide
@@ -6770,11 +6770,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52F547D5)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E57B1) (tstamp 52F547D5)
     (at 148.7 99.7)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52DA75EA)
-    (fp_text reference R706 (at 0 -0.9906) (layer F.SilkS)
+    (fp_text reference R706 (at 2.1 0 90) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906) (layer F.SilkS) hide
@@ -6797,11 +6797,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52F547E0)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E57B6) (tstamp 52F547E0)
     (at 148.7 101.7)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52DA79CB)
-    (fp_text reference R707 (at 0 -0.9906) (layer F.SilkS)
+    (fp_text reference R707 (at 2.1 0 90) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906) (layer F.SilkS) hide
@@ -6824,11 +6824,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52F547EB)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E57B9) (tstamp 52F547EB)
     (at 148.7 103.7)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52DA79D6)
-    (fp_text reference R708 (at 0 -0.9906) (layer F.SilkS)
+    (fp_text reference R708 (at 2.1 0 90) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906) (layer F.SilkS) hide
@@ -6851,11 +6851,11 @@
     )
   )
 
-  (module SMD_Packages:SOT23 (layer F.Cu) (tedit 52FC08B3) (tstamp 52FC1138)
+  (module SMD_Packages:SOT23 (layer F.Cu) (tedit 530E5994) (tstamp 52FC1138)
     (at 155.8 126.7 270)
     (tags SOT23)
     (path /52DF2AF5/52E1A755)
-    (fp_text reference Q501 (at 1.99898 -0.09906 360) (layer F.SilkS)
+    (fp_text reference Q501 (at 0 2.7 270) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.11938)))
     )
     (fp_text value BC847 (at 0.0635 0 270) (layer F.SilkS)
@@ -6879,11 +6879,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FE8699)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5491) (tstamp 52FE8699)
     (at 192.4 109.7)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52FABDDF)
-    (fp_text reference R513 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R513 (at 2.9 0 90) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 3.3k (at 0 1.27) (layer F.SilkS) hide
@@ -6906,11 +6906,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FE86A6)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E548E) (tstamp 52FE86A6)
     (at 192.4 112.2 180)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52FABDC1)
-    (fp_text reference R514 (at 0.0254 -1.27 180) (layer F.SilkS)
+    (fp_text reference R514 (at -2.9 0 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 180) (layer F.SilkS) hide
@@ -6933,11 +6933,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FC115C)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5A27) (tstamp 52FC115C)
     (at 187.5 111.2 270)
     (descr "SMT resistor, 1206")
     (path /52DF2AF5/52FABDC7)
-    (fp_text reference R515 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R515 (at -2.8 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 10k (at 0 1.27 270) (layer F.SilkS) hide
@@ -6960,11 +6960,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52FD6995)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E51DE) (tstamp 52FD6995)
     (at 84.4 52.5 270)
     (descr "SMT capacitor, 1206")
     (path /52F38A03)
-    (fp_text reference C110 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C110 (at 0 1.5 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27 270) (layer B.SilkS) hide
@@ -6987,11 +6987,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 5303CE1F)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E5213) (tstamp 5303CE1F)
     (at 81.9 63.4)
     (descr "SMT resistor, 1206")
     (path /52FEF298)
-    (fp_text reference R108 (at 0.0254 -1.27) (layer F.SilkS)
+    (fp_text reference R108 (at 0 -1.5) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 33 (at 0 1.27) (layer F.SilkS) hide
@@ -7014,11 +7014,11 @@
     )
   )
 
-  (module SMD_Packages:SOT23 (layer F.Cu) (tedit 52FE8174) (tstamp 52FE81F8)
+  (module SMD_Packages:SOT23 (layer F.Cu) (tedit 530E59FF) (tstamp 52FE81F8)
     (at 155.8 120.5 270)
     (tags SOT23)
     (path /52DF2AF5/52E1A773)
-    (fp_text reference Q502 (at 1.99898 -0.09906 360) (layer F.SilkS)
+    (fp_text reference Q502 (at 0 2.7 450) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.11938)))
     )
     (fp_text value BC847 (at 0.0635 0 270) (layer F.SilkS)
@@ -7098,11 +7098,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 52FE933D)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E5470) (tstamp 52FE933D)
     (at 189.9 122)
     (descr "SMT capacitor, 1206")
     (path /52DF2AF5/52FAC444)
-    (fp_text reference C502 (at 0.0254 1.2954) (layer B.SilkS)
+    (fp_text reference C502 (at 3.1 0 90) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 100n (at 0 -1.27) (layer B.SilkS) hide
@@ -7125,11 +7125,11 @@
     )
   )
 
-  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 490473CD) (tstamp 52FE9E55)
+  (module w_smd_resistors:r_1206 (layer F.Cu) (tedit 530E592E) (tstamp 52FE9E55)
     (at 167.8 98.1 270)
     (descr "SMT resistor, 1206")
     (path /52D5DBDC/52ED5E01)
-    (fp_text reference R720 (at 0.0254 -1.27 270) (layer F.SilkS)
+    (fp_text reference R720 (at 0 1.5 270) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 1.5k (at 0 1.27 270) (layer F.SilkS) hide
@@ -7152,11 +7152,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52FF4CF5)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E57D1) (tstamp 52FF4CF5)
     (at 137.3 105.7 90)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52D27791)
-    (fp_text reference R703 (at 0 -0.9906 90) (layer F.SilkS)
+    (fp_text reference R703 (at 0 -1.2 90) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 3.3k (at 0 0.9906 90) (layer F.SilkS) hide
@@ -7179,11 +7179,11 @@
     )
   )
 
-  (module w_smd_dil:so-8 (layer F.Cu) (tedit 4E68852E) (tstamp 52FF6644)
+  (module w_smd_dil:so-8 (layer F.Cu) (tedit 530E5827) (tstamp 52FF6644)
     (at 127 116 90)
     (descr SO-8)
     (path /52E30A6A/52E3D0CB)
-    (fp_text reference U601 (at 0 -1.016 90) (layer F.SilkS)
+    (fp_text reference U601 (at 2.8 3.7 180) (layer F.SilkS)
       (effects (font (size 0.7493 0.7493) (thickness 0.14986)))
     )
     (fp_text value TL072 (at 0 1.016 90) (layer F.SilkS)
@@ -7225,11 +7225,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52FF6EA7)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E5811) (tstamp 52FF6EA7)
     (at 125 119.8)
     (descr "SMT resistor, 0805")
     (path /52E30A6A/52E40248)
-    (fp_text reference R605 (at 0 -0.9906) (layer F.SilkS)
+    (fp_text reference R605 (at 0 1.2) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906) (layer F.SilkS) hide
@@ -7252,11 +7252,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 52FF6EB2)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E580C) (tstamp 52FF6EB2)
     (at 129 119.8 180)
     (descr "SMT resistor, 0805")
     (path /52E30A6A/52E405A1)
-    (fp_text reference R606 (at 0 -0.9906 180) (layer F.SilkS)
+    (fp_text reference R606 (at 0 -1.2 180) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 33 (at 0 0.9906 180) (layer F.SilkS) hide
@@ -7279,11 +7279,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_0805 (layer B.Cu) (tedit 49047394) (tstamp 52FF7426)
+  (module w_smd_capacitors:c_0805 (layer B.Cu) (tedit 530E5880) (tstamp 52FF7426)
     (at 129.3 92.2 270)
     (descr "SMT capacitor, 0805")
     (path /52D5DBDC/52F09F1F)
-    (fp_text reference C716 (at 0 0.9906 270) (layer B.SilkS)
+    (fp_text reference C716 (at 0 -1.3 270) (layer B.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)) (justify mirror))
     )
     (fp_text value 100n (at 0 -0.9906 270) (layer B.SilkS) hide
@@ -7306,12 +7306,12 @@
     )
   )
 
-  (module Transistors_TO-220:TO-220_Neutral123_Vertical (layer F.Cu) (tedit 530B5163) (tstamp 53050F43)
+  (module Transistors_TO-220:TO-220_Neutral123_Vertical (layer F.Cu) (tedit 530E5675) (tstamp 53050F43)
     (at 88.2 71.8 270)
     (descr "TO-220, Neutral, Vertical,")
     (tags "TO-220, Neutral, Vertical,")
     (path /52E6355F)
-    (fp_text reference U101 (at 0 -5.08 270) (layer F.SilkS)
+    (fp_text reference U101 (at -8.7 -3.9 540) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value LD1117S33 (at 0 3.81 270) (layer F.SilkS) hide
@@ -7373,11 +7373,11 @@
       (net 92 GND))
   )
 
-  (module w_pth_resistors:rc07_vert (layer F.Cu) (tedit 530B49C6) (tstamp 53055403)
+  (module w_pth_resistors:rc07_vert (layer F.Cu) (tedit 530E5190) (tstamp 53055403)
     (at 79 45.5 90)
     (descr "Resistor, RC07 vertical")
     (path /52E08D7A)
-    (fp_text reference FB102 (at 0 3.556 90) (layer F.SilkS)
+    (fp_text reference FB102 (at 0 -3.3 90) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value Bead (at 0 -3.556 90) (layer F.SilkS)
@@ -7396,12 +7396,12 @@
     )
   )
 
-  (module Housings_SOT:SOT126_SOT32_Housing_Vertical_BigPads (layer F.Cu) (tedit 5306A694) (tstamp 530A271D)
+  (module Housings_SOT:SOT126_SOT32_Housing_Vertical_BigPads (layer F.Cu) (tedit 530E5793) (tstamp 530A271D)
     (at 78.9 103.6 180)
     (descr "SOT126, SOT32, Housing, Vertical, Big Pads,")
     (tags "SOT126, SOT32, Housing, Vertical, Big Pads,")
     (path /52E30A6A/52E3432C)
-    (fp_text reference Q601 (at 0.09906 -4.0005 180) (layer F.SilkS)
+    (fp_text reference Q601 (at 5.6 -0.7 270) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value BD135 (at 0.09906 3.50012 180) (layer F.SilkS) hide
@@ -7426,12 +7426,12 @@
     )
   )
 
-  (module Housings_SOT:SOT126_SOT32_Housing_Vertical_BigPads (layer F.Cu) (tedit 530B4A17) (tstamp 53091E96)
+  (module Housings_SOT:SOT126_SOT32_Housing_Vertical_BigPads (layer F.Cu) (tedit 530E52B3) (tstamp 53091E96)
     (at 78.9 90.4)
     (descr "SOT126, SOT32, Housing, Vertical, Big Pads,")
     (tags "SOT126, SOT32, Housing, Vertical, Big Pads,")
     (path /52E30A6A/52E34340)
-    (fp_text reference Q602 (at 0.09906 -4.0005) (layer F.SilkS)
+    (fp_text reference Q602 (at 0 3.4) (layer F.SilkS)
       (effects (font (thickness 0.3048)))
     )
     (fp_text value BD136 (at 0.09906 3.50012) (layer F.SilkS) hide
@@ -7483,11 +7483,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 490473F0) (tstamp 5306ABE8)
+  (module w_smd_capacitors:c_1206 (layer B.Cu) (tedit 530E52EA) (tstamp 5306ABE8)
     (at 65.6 100.5 270)
     (descr "SMT capacitor, 1206")
     (path /52E30A6A/53072EB1)
-    (fp_text reference C608 (at 0.0254 1.2954 270) (layer B.SilkS)
+    (fp_text reference C608 (at 0 1.6 270) (layer B.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)) (justify mirror))
     )
     (fp_text value 2.2u (at 0 -1.27 270) (layer B.SilkS) hide
@@ -7596,13 +7596,13 @@
     )
   )
 
-  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 4B90E153) (tstamp 530A6CA4)
+  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 530E573C) (tstamp 530A6CA4)
     (at 99.9 98.6 180)
     (descr "Resistor, RC07")
     (tags R)
     (path /52E30A6A/52E35057)
     (autoplace_cost180 10)
-    (fp_text reference FB601 (at 0.127 -1.016 180) (layer F.SilkS)
+    (fp_text reference FB601 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value Bead (at 0 1.016 180) (layer F.SilkS) hide
@@ -7626,13 +7626,13 @@
     )
   )
 
-  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 530B49A9) (tstamp 530A6CB0)
+  (module w_pth_resistors:RC07 (layer F.Cu) (tedit 530E5741) (tstamp 530A6CB0)
     (at 99.9 94.2 180)
     (descr "Resistor, RC07")
     (tags R)
     (path /52E30A6A/52E3A716)
     (autoplace_cost180 10)
-    (fp_text reference FB602 (at 0.127 -1.016 180) (layer F.SilkS)
+    (fp_text reference FB602 (at 0 0 180) (layer F.SilkS)
       (effects (font (size 1.397 1.27) (thickness 0.2032)))
     )
     (fp_text value Bead (at 0 1.016 180) (layer F.SilkS) hide
@@ -7687,11 +7687,11 @@
     )
   )
 
-  (module SMD_Packages:SM1812E (layer B.Cu) (tedit 530A57B6) (tstamp 530A80EF)
+  (module SMD_Packages:SM1812E (layer B.Cu) (tedit 530E57E4) (tstamp 530A80EF)
     (at 135.7 105.6)
     (path /52E9323C)
     (attr smd)
-    (fp_text reference FB103 (at 0 0 270) (layer B.SilkS)
+    (fp_text reference FB103 (at 4.1 0 270) (layer B.SilkS)
       (effects (font (size 0.889 0.889) (thickness 0.127)) (justify mirror))
     )
     (fp_text value Bead (at 0 0 270) (layer B.SilkS) hide
@@ -7715,11 +7715,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 530D0045)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E53C1) (tstamp 530D0045)
     (at 125.6 99.5 270)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52D26A81)
-    (fp_text reference C702 (at 0.0254 -1.2954 270) (layer F.SilkS)
+    (fp_text reference C702 (at -2.9 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 270) (layer F.SilkS) hide
@@ -7742,11 +7742,11 @@
     )
   )
 
-  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 490473F0) (tstamp 530D0050)
+  (module w_smd_capacitors:c_1206 (layer F.Cu) (tedit 530E53BC) (tstamp 530D0050)
     (at 123.3 99.5 270)
     (descr "SMT capacitor, 1206")
     (path /52D5DBDC/52D26A2D)
-    (fp_text reference C703 (at 0.0254 -1.2954 270) (layer F.SilkS)
+    (fp_text reference C703 (at -2.9 0 360) (layer F.SilkS)
       (effects (font (size 0.50038 0.50038) (thickness 0.11938)))
     )
     (fp_text value 100n (at 0 1.27 270) (layer F.SilkS) hide
@@ -7769,11 +7769,11 @@
     )
   )
 
-  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 49047384) (tstamp 530D115F)
+  (module w_smd_resistors:r_0805 (layer F.Cu) (tedit 530E539F) (tstamp 530D115F)
     (at 121.15 100.55 90)
     (descr "SMT resistor, 0805")
     (path /52D5DBDC/52D2696E)
-    (fp_text reference R713 (at 0 -0.9906 90) (layer F.SilkS)
+    (fp_text reference R713 (at -2.05 -0.05 180) (layer F.SilkS)
       (effects (font (size 0.29972 0.29972) (thickness 0.06096)))
     )
     (fp_text value 100 (at 0 0.9906 90) (layer F.SilkS) hide
@@ -7997,7 +7997,6 @@
     (arrow2a (pts (xy 71 67.9) (xy 71.586421 66.773496)))
     (arrow2b (pts (xy 71 67.9) (xy 70.413579 66.773496)))
   )
-  (gr_line (start 94.6 71.8) (end 96.5 71.8) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 74.5 33.6) (end 74.5 133.6) (angle 90) (layer Dwgs.User) (width 0.2))
   (dimension 10 (width 0.25) (layer Dwgs.User)
     (gr_text "10,000 mm" (at 69.5 23.1) (layer Dwgs.User)
@@ -9227,10 +9226,10 @@
   (via (at 156.7 102.2) (size 1.2) (drill 0.6) (layers F.Cu B.Cu) (net 92))
   (segment (start 155.212172 100.712172) (end 156.7 102.2) (width 0.5) (layer F.Cu) (net 92) (tstamp 52FEA088) (status 10))
   (segment (start 156.206 129.743) (end 156.263 129.8) (width 0.5) (layer F.Cu) (net 92) (status 30))
-  (via (at 158 129.8) (size 1) (drill 0.6) (layers F.Cu B.Cu) (net 92))
+  (via (at 158 129.8) (size 1.2) (drill 0.6) (layers F.Cu B.Cu) (net 92))
   (segment (start 156.263 129.8) (end 158 129.8) (width 0.5) (layer F.Cu) (net 92) (tstamp 52FE9F57) (status 10))
   (segment (start 156.206 123.542) (end 156.264 123.6) (width 0.5) (layer F.Cu) (net 92) (status 30))
-  (via (at 158 123.6) (size 1) (drill 0.6) (layers F.Cu B.Cu) (net 92))
+  (via (at 158 123.6) (size 1.2) (drill 0.6) (layers F.Cu B.Cu) (net 92))
   (segment (start 156.264 123.6) (end 158 123.6) (width 0.5) (layer F.Cu) (net 92) (tstamp 52FE9F53) (status 10))
   (segment (start 185.19982 110.2475) (end 187.0555 110.2475) (width 0.5) (layer F.Cu) (net 92) (status 30))
   (segment (start 187.0555 110.2475) (end 187.5 109.803) (width 0.5) (layer F.Cu) (net 92) (tstamp 52FE86D6) (status 30))
