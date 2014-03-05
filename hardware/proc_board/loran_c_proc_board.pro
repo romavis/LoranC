@@ -1,4 +1,4 @@
-update=Ср. 26 февр. 2014 21:38:26
+update=Чт. 06 марта 2014 00:57:09
 version=1
 last_client=eeschema
 [cvpcb]
@@ -122,3 +122,4 @@ LibName61=video
 LibName62=led_holder
 LibName63=crystal_shielded
 LibName64=conn_2s
+LibName65=conn_mf

@@ -63,6 +63,7 @@ LIBS:video
 LIBS:led_holder
 LIBS:crystal_shielded
 LIBS:conn_2s
+LIBS:conn_mf
 LIBS:loran_c_proc_board-cache
 EELAYER 24 0
 EELAYER END
