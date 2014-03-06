@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL431
+D Shunt voltage reference
+$ENDCMP
+#
+#End Doc Library
