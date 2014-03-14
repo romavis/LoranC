@@ -1,4 +1,4 @@
-update=Чт. 06 марта 2014 23:49:07
+update=Пт. 14 марта 2014 21:26:47
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=pagelayout_default.kicad_wks
 SubpartIdSeparator=0
 SubpartFirstId=65
 LibDir=../libs
@@ -55,7 +55,7 @@ NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=39
+LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -89,3 +89,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/romavis/kicad/projects/Loran_c/hardware/libs/irlz44n
 LibName32=tl431
+LibName33=r_pot

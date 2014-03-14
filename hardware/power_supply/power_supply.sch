@@ -31,12 +31,13 @@ LIBS:contrib
 LIBS:valves
 LIBS:irlz44n
 LIBS:tl431
+LIBS:r_pot
 LIBS:power_supply-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Loran C receiver power supply"
 Date "05 марта 2014"
 Rev ""
@@ -128,4 +129,17 @@ F2 "10VAC_A" I L 3800 3650 60
 F3 "10VAC_B" I L 3800 3850 60 
 F4 "+5VD" O R 5000 3750 60 
 $EndSheet
+$Sheet
+S 3800 4550 1200 600 
+U 5322E404
+F0 "+-15V regulator" 50
+F1 "regulator_analog.sch" 50
+F2 "20VAC_A" I L 3800 4850 60 
+F3 "20VAC_B" I L 3800 5000 60 
+F4 "+20V_Rect" O L 3800 4700 60 
+F5 "+15VA" O R 5000 4750 60 
+F6 "-15VA" O R 5000 4950 60 
+$EndSheet
+Text Notes 6700 1550 0    79   ~ 0
+NOTE:\nResistors:\n-no special marking: +-5% any T.C.\n-LTC: +-5% moderately low T.C. (<=100ppm/°C)\n-1%: +-1% and LTC\n\nAll resistors are 0.5W, unless noted otherwise
 $EndSCHEMATC
