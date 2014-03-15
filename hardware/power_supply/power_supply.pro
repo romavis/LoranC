@@ -1,4 +1,4 @@
-update=Пт. 14 марта 2014 21:26:47
+update=Сб. 15 марта 2014 18:40:38
 version=1
 last_client=eeschema
 [cvpcb]
@@ -87,6 +87,8 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/romavis/kicad/projects/Loran_c/hardware/libs/irlz44n
-LibName32=tl431
-LibName33=r_pot
+LibName31=tl431
+LibName32=r_pot
+LibName33=mos_irf
+LibName34=scr
+LibName35=conn_mf

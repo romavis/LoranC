@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MOS_N_IRF
+D Generic N-channel MOSFET symbol (GDS pinout)
+$ENDCMP
+#
+$CMP MOS_P_IRF
+D Generic P-channel MOSFET symbol (GDS pinout)
+$ENDCMP
+#
+#End Doc Library

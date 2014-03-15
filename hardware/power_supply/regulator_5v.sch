@@ -29,16 +29,18 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:irlz44n
 LIBS:tl431
 LIBS:r_pot
+LIBS:mos_irf
+LIBS:scr
+LIBS:conn_mf
 LIBS:power_supply-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
-Title "+5V 2.0A voltage regulator"
+Sheet 2 4
+Title "+5V 2.0A digital supply regulator"
 Date "06 марта 2014"
 Rev ""
 Comp "Roman Dobrodiy (aka RomaVis)"
@@ -281,17 +283,6 @@ F 2 "" H 3100 4800 60  0000 C CNN
 F 3 "" H 3100 4800 60  0000 C CNN
 	1    3100 4800
 	1    0    0    -1  
-$EndComp
-$Comp
-L IRLZ44N Q?
-U 1 1 5317C141
-P 6050 3450
-F 0 "Q?" H 6300 3500 40  0000 L CNN
-F 1 "IRLZ44N" H 6300 3400 40  0000 L CNN
-F 2 "" H 5871 3551 29  0001 C CNN
-F 3 "" H 6050 3450 60  0000 C CNN
-	1    6050 3450
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R R?
@@ -573,17 +564,6 @@ Connection ~ 6550 2150
 Wire Wire Line
 	6550 2650 6550 2600
 $Comp
-L THYRISTOR T?
-U 1 1 5318E06D
-P 4300 5950
-F 0 "T?" H 4200 6050 40  0000 C CNN
-F 1 "THYRISTOR" H 4300 5850 40  0000 C CNN
-F 2 "" H 4300 5950 60  0000 C CNN
-F 3 "" H 4300 5950 60  0000 C CNN
-	1    4300 5950
-	0    -1   1    0   
-$EndComp
-$Comp
 L FUSE F?
 U 1 1 5318E2EE
 P 3850 3350
@@ -599,7 +579,7 @@ L R R?
 U 1 1 5318E592
 P 8650 4000
 F 0 "R?" V 8730 4000 40  0000 C CNN
-F 1 "3.3k 1%" V 8657 4001 40  0000 C CNN
+F 1 "3.0k 1%" V 8657 4001 40  0000 C CNN
 F 2 "" V 8580 4000 30  0000 C CNN
 F 3 "" H 8650 4000 30  0000 C CNN
 	1    8650 4000
@@ -610,7 +590,7 @@ L R R?
 U 1 1 5318E59D
 P 8650 5300
 F 0 "R?" V 8730 5300 40  0000 C CNN
-F 1 "2.2k 1%" V 8657 5301 40  0000 C CNN
+F 1 "2.0k 1%" V 8657 5301 40  0000 C CNN
 F 2 "" V 8580 5300 30  0000 C CNN
 F 3 "" H 8650 5300 30  0000 C CNN
 	1    8650 5300
@@ -687,7 +667,7 @@ L R R?
 U 1 1 5318E6E8
 P 9900 4500
 F 0 "R?" V 9980 4500 40  0000 C CNN
-F 1 "100" V 9907 4501 40  0000 C CNN
+F 1 "82" V 9907 4501 40  0000 C CNN
 F 2 "" V 9830 4500 30  0000 C CNN
 F 3 "" H 9900 4500 30  0000 C CNN
 	1    9900 4500
@@ -772,7 +752,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 5850 4750 6050
 Wire Wire Line
-	4750 5950 5600 5950
+	4750 5950 5750 5950
 Wire Wire Line
 	1900 5100 1900 5250
 Wire Wire Line
@@ -810,7 +790,7 @@ Connection ~ 3400 3350
 Wire Wire Line
 	3100 3350 3100 3850
 Wire Wire Line
-	3400 3350 3400 3900
+	3400 3200 3400 3900
 Wire Wire Line
 	3100 4350 3100 4800
 Wire Wire Line
@@ -826,7 +806,7 @@ Connection ~ 10350 3350
 Wire Wire Line
 	4750 3350 4750 4750
 Wire Wire Line
-	4300 5750 4300 3350
+	4300 3200 4300 5750
 Connection ~ 4300 3350
 Wire Wire Line
 	4300 6150 4300 6550
@@ -862,8 +842,8 @@ Wire Notes Line
 	8500 6000 10050 6000
 Wire Notes Line
 	10050 6000 10050 5950
-Text Notes 8800 6300 0    60   ~ 0
-Overvoltage protection\nSetting: approx. 6.25V\nAction: crowbar
+Text Notes 8500 6300 0    60   ~ 0
+Overvoltage protection circuit\nSetting: approx. 6.25V (min. 6.0V)\nAction: crowbar
 Wire Notes Line
 	4600 6900 4600 6950
 Wire Notes Line
@@ -880,26 +860,8 @@ Wire Notes Line
 	4150 6950 4150 6900
 Text Notes 3900 7100 0    60   ~ 0
 SCR crowbar
-Wire Notes Line
-	4100 5700 4100 6200
-Wire Notes Line
-	4100 6200 4500 6200
-Wire Notes Line
-	4500 6200 4500 5700
-Wire Notes Line
-	4500 5700 4100 5700
-Text Notes 3650 5650 0    60   ~ 0
-HS mounted
-Wire Notes Line
-	5800 2900 6300 2900
-Wire Notes Line
-	6300 2900 6300 3700
-Wire Notes Line
-	6300 3700 5800 3700
-Wire Notes Line
-	5800 3700 5800 2900
-Text Notes 5800 2850 0    60   ~ 0
-HS mounted
+Text Notes 4150 6000 1    60   ~ 0
+On heatsink
 Text Notes 6250 2350 0    39   ~ 0
 Not fitted
 $Comp
@@ -976,4 +938,34 @@ F 3 "" H 7900 5300 30  0000 C CNN
 	1    7900 5300
 	1    0    0    -1  
 $EndComp
+$Comp
+L MOS_N_IRF Q?
+U 1 1 5324DDAD
+P 6050 3450
+F 0 "Q?" V 6400 3300 40  0000 L CNN
+F 1 "IRLZ44N" V 6300 3300 40  0000 L CNN
+F 2 "" H 5871 3551 29  0001 C CNN
+F 3 "" H 6050 3450 60  0000 C CNN
+	1    6050 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SCR-KAG D?
+U 1 1 5324EEC7
+P 4300 5950
+F 0 "D?" H 4200 6050 40  0000 C CNN
+F 1 "BT152-600R" H 4300 5850 40  0000 C CNN
+F 2 "" H 4300 5950 60  0000 C CNN
+F 3 "" H 4300 5950 60  0000 C CNN
+	1    4300 5950
+	0    -1   1    0   
+$EndComp
+Text Label 5750 5950 0    60   ~ 0
++5_VGATE
+Text Label 3400 3200 1    60   ~ 0
++5_VRECT
+Text Label 4300 3200 1    60   ~ 0
++5_VFUSED
+Text Notes 6200 3050 2    60   ~ 0
+On heatsink
 $EndSCHEMATC
