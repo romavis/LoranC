@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name conn_minifit)(type KiCad)(uri ${KISYSMOD}/connect-minifit.pretty)(options "")(descr ""))
+  (lib (name conn_pwl)(type KiCad)(uri ${KISYSMOD}/connect-pwl.pretty)(options "")(descr ""))
+  (lib (name w_pth_resistors)(type Legacy)(uri ${KISYSMOD}/w_pth_resistors.mod)(options "")(descr ""))
+  (lib (name w_pth_diodes)(type Legacy)(uri ${KISYSMOD}/w_pth_diodes.mod)(options "")(descr ""))
+  (lib (name w_capacitors)(type Legacy)(uri ${KISYSMOD}/w_capacitors.mod)(options "")(descr ""))
+  (lib (name holes)(type KiCad)(uri ${KISYSMOD}/holes.pretty)(options "")(descr ""))
+)
